@@ -1,3 +1,4 @@
+# Time: worst case O(2^n), space: O(2^n)
 class Solution:
     def letterCasePermutation(self, S: str) -> List[str]:
         result = [S]

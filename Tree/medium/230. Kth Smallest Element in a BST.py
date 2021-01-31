@@ -4,6 +4,8 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
+#Time: O(n), Space: O(n)
 class Solution:
     def kthSmallest(self, root: TreeNode, k: int) -> int:
         count = 0
