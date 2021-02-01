@@ -2,11 +2,11 @@
 
 * A good problem to solve again
 
- ** Arrays
+1. Arrays
+  * Easy
+    * 169. Majority Element(Arrays-easy) With using O(1) space.
 
- *** Easy
 
-**** 169. Majority Element(Arrays-easy) With using O(1) space.
 
 **** 1314. Matrix Block Sum(Arrays-medium) Prefix sum with 2D array
 
