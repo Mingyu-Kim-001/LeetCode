@@ -4,7 +4,7 @@
 
 1. Arrays
   * Easy
-   * 169 Majority Element With using O(1) space.
+    * 169 Majority Element With using O(1) space.
 
 
 
