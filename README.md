@@ -3,7 +3,7 @@
 * A good problem to solve again
 
 1. Arrays
-  * Easy
+* Easy
     * 169 Majority Element : With using O(1) space.
   * Medium
     * 1314 Matrix Block Sum(Arrays-medium) : Prefix sum with 2D array
