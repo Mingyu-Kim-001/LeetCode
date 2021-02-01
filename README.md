@@ -2,9 +2,9 @@
 
 * A good problem to solve again
 
-** Arrays
+ ** Arrays
 
-*** Easy
+ *** Easy
 
 **** 169. Majority Element(Arrays-easy) With using O(1) space.
 
