@@ -1,6 +1,6 @@
 # LeetCode
 
-* A good problem to solve again
+A good problem to solve again
 
 1. Arrays
 > * Easy
