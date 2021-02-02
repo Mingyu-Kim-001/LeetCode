@@ -15,6 +15,6 @@ Problems worth resolving
 3. Linked List
 >* Medium
 >    * 19 Remove Nth Node From End of List : Solve with only one pass.
-4. Heap
+4. Priority Queue
 >* Hard
 >    * 23 Merge k Sorted Lists : Typical heap problem. 
