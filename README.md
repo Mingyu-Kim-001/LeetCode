@@ -18,3 +18,6 @@ Problems worth resolving
 4. Priority Queue
 >* Hard
 >    * 23 Merge k Sorted Lists : Typical heap problem. 
+5. Tree
+>* Medium
+>    * 105 Construct Binary Tree from Preorder and Inorder Traversal : Nice recursion solution exists. 
