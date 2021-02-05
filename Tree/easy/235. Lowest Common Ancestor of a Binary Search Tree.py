@@ -5,16 +5,11 @@
 #         self.left = None
 #         self.right = None
 
-# Time: O(n)
+#Time: O(n)
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
-        
-        def DFS(root,p,q):
-            if p.val<=root.val<=q.val or q.val<=root.val<=p.val:
-                return root
-            if p.val<root.val and q.val<root.val:
-                return DFS(root.left,p,q)
-            if p.val>root.val and q.val>root.val:
-                return DFS(root.right,p,q)
-            
-        return DFS(root,p,q)
+        def DFS(node):
+            if p.val<=node.val<=q.val or q.val<=node.val<=p.val: return node
+            if p.val<node.val and q.val<node.val: return DFS(node.left)
+            if p.val>node.val and q.val>node.val: return DFS(node.right)
+        return DFS(root)
