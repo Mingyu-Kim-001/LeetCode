@@ -10,7 +10,7 @@ Problems worth resolving
 >    * 56 Merge Intervals : Not sorted input & take care of all cases
 >    * 152 Maximum Product Subarray : Solve with binary search. 
 >* Hard
->    239 Sliding Window Maximum : A typical monotonic queue problem. 
+>    * 239 Sliding Window Maximum : A typical monotonic queue problem. 
 2. Dynamic Programming
 >* Easy
 >* Medium
