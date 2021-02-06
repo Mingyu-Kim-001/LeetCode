@@ -9,12 +9,14 @@ Problems worth resolving
 >    * 1314 Matrix Block Sum : Prefix sum with 2D array
 >    * 56 Merge Intervals : Not sorted input & take care of all cases
 >    * 152 Maximum Product Subarray : Solve with binary search. 
+>    * 334 Increasing Triplet Subsequence
 >* Hard
 >    * 239 Sliding Window Maximum : A typical monotonic queue problem. 
 2. Dynamic Programming
 >* Easy
 >* Medium
 >    * 1567 Maximum Length of Subarray With Positive Product
+>    * 322 Coin Change
 3. Linked List
 >* Medium
 >    * 19 Remove Nth Node From End of List : Solve with only one pass.
