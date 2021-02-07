@@ -1,5 +1,6 @@
 # LeetCode
-
+Problems solved
+abc
 Problems worth resolving 
 
 1. Arrays
@@ -10,13 +11,16 @@ Problems worth resolving
 >    * 56 Merge Intervals : Not sorted input & take care of all cases
 >    * 152 Maximum Product Subarray : Solve with binary search. 
 >    * 334 Increasing Triplet Subsequence
+>    * 347 Top K Frequent Elements : The idea of bucket sort.
+>    * 435 Non-overlapping Intervals : Sorting intervals. 
+>    * 526 Beautiful Arrangement
 >* Hard
 >    * 239 Sliding Window Maximum : A typical monotonic queue problem. 
 2. Dynamic Programming
 >* Easy
 >* Medium
 >    * 1567 Maximum Length of Subarray With Positive Product
->    * 322 Coin Change
+>    * 322 Coin Change, 518 Coin Change 2 : Basic dynamic programming problems. 
 3. Linked List
 >* Medium
 >    * 19 Remove Nth Node From End of List : Solve with only one pass.
@@ -31,6 +35,7 @@ Problems worth resolving
 6. Graph
 >* Medium
 >    * 207 Course Schedule : A typical topological sorting problem. 
+>    * 417 Pacific Atlantic Water Flow : The idea of reverse flow
 7. Binary
 >* Easy
 >    * 191 Number of 1 Bits : The idea of n&-n.   
