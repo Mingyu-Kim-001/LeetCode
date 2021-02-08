@@ -17,4 +17,5 @@ class Solution:
             if not head: return False
             if check(head,t): return True
             return DFS(head.left) or DFS(head.right)
+        
         return DFS(s)
