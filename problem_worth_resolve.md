@@ -19,6 +19,7 @@ Problems worth resolving
 >    * 1567 Maximum Length of Subarray With Positive Product
 >    * 322 Coin Change, 518 Coin Change 2 : Basic dynamic programming problems. 
 >    * 576 Out of Boundary Paths
+>    * 837 New 21 Game : Brilliant dp. 
 3. Linked List
 >* Medium
 >    * 19 Remove Nth Node From End of List : Solve with only one pass.
@@ -34,6 +35,11 @@ Problems worth resolving
 >* Medium
 >    * 207 Course Schedule : A typical topological sorting problem. 
 >    * 417 Pacific Atlantic Water Flow : The idea of reverse flow
+>* Hard
+>.   * 773 Sliding Puzzle
 7. Binary
 >* Easy
 >    * 191 Number of 1 Bits : The idea of n&-n.   
+8. String
+>* Medium
+>.   * 648 Replace Words : The idea of Trie. 
