@@ -1,12 +1,12 @@
 # LeetCode
 Problems solved
 
-|        |   Tree |   Two Pointers |   Graph |   Dynamic Programming |   Heap |   Arrays |   Binary |   String |   Linked List |   total |
-|:-------|-------:|---------------:|--------:|----------------------:|-------:|---------:|---------:|---------:|--------------:|--------:|
-| easy   |      6 |              0 |       0 |                     1 |      0 |       12 |        1 |        4 |             3 |      27 |
-| medium |      4 |              2 |       6 |                     7 |      1 |       19 |        0 |        4 |             5 |      48 |
-| hard   |      1 |              1 |       3 |                     0 |      1 |        2 |        0 |        0 |             1 |       9 |
-| total  |     11 |              3 |       9 |                     8 |      2 |       33 |        1 |        8 |             9 |      84 |
+|        |   Tree |   Two Pointers |   Graph |   Etc |   Dynamic Programming |   Heap |   Arrays |   Binary |   String |   Linked List |   total |
+|:-------|-------:|---------------:|--------:|------:|----------------------:|-------:|---------:|---------:|---------:|--------------:|--------:|
+| easy   |      7 |              0 |       0 |     0 |                     1 |      0 |       17 |        2 |        6 |             3 |      36 |
+| medium |     10 |              3 |       7 |     1 |                    10 |      1 |       41 |        1 |       10 |             5 |      89 |
+| hard   |      3 |              1 |       4 |     0 |                     4 |      1 |        6 |        0 |        0 |             1 |      20 |
+| total  |     20 |              4 |      11 |     1 |                    15 |      2 |       64 |        3 |       16 |             9 |     145 |
 
 Problems worth resolving 
 
@@ -29,6 +29,7 @@ Problems worth resolving
 >    * 1567 Maximum Length of Subarray With Positive Product
 >    * 322 Coin Change, 518 Coin Change 2 : Basic dynamic programming problems. 
 >    * 576 Out of Boundary Paths
+>    * 837 New 21 Game : Brilliant dp. 
 3. Linked List
 >* Medium
 >    * 19 Remove Nth Node From End of List : Solve with only one pass.
@@ -44,6 +45,11 @@ Problems worth resolving
 >* Medium
 >    * 207 Course Schedule : A typical topological sorting problem. 
 >    * 417 Pacific Atlantic Water Flow : The idea of reverse flow
+>* Hard
+>.   * 773 Sliding Puzzle
 7. Binary
 >* Easy
 >    * 191 Number of 1 Bits : The idea of n&-n.   
+8. String
+>* Medium
+>.   * 648 Replace Words : The idea of Trie. 
