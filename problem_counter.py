@@ -10,9 +10,11 @@ for problem_type in os.listdir():
         counter[problem_type] = [0,0,0,0]
         for difficulty in problem_difficulty:
             if difficulty in os.listdir(join(os.getcwd(),problem_type)):
-                for problem in os.listdir(join(os.getcwd(),problem_type,difficulty)):
+                for problem in sorted(os.listdir(join(os.getcwd(),problem_type,difficulty))):
                     if problem[0]!=".":
                         counter[problem_type][difficulty]+=1
+
+counter = counter.reindex(sorted(counter.columns), axis=1)
 counter["total"] = counter.sum(axis=1)
 counter.loc["total",:] = counter.sum(axis=0)
 mdTable = counter.to_markdown()
