@@ -17,5 +17,5 @@ counter["total"] = counter.sum(axis=1)
 counter.loc["total",:] = counter.sum(axis=0)
 mdTable = counter.to_markdown()
 
-with open("problem_worth_resolve.md","r") as resolve, open("README.md", "w") as readme:
+with open(join(os.getcwd(),"problem_worth_resolve.md"),"r") as resolve, open(join(os.getcwd(),"README.md"), "w") as readme:
     readme.write("# LeetCode\nProblems solved\n\n"+mdTable+"\n\n"+resolve.read())
