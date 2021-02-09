@@ -21,15 +21,6 @@ class Solution:
                 if root.left: getMaxDepth(root.left,depth+1)
                 if root.right: getMaxDepth(root.right,depth+1)
         getMaxDepth(root,0)
-        # print(maxDepth,deepestCount)
-        
-        # def numOfDeepest(root,depth):
-        #     if not root:
-        #         return 0
-        #     if depth==maxDepth:
-        #         return 1
-        #     return numOfDeepest(root.left,depth+1) + numOfDeepest(root.right,depth+1)
-        # deepestCount = numOfDeepest(root,0)
         
         sol = None
         def DFS(root,depth):

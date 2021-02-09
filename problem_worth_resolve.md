@@ -13,13 +13,16 @@ Problems worth resolving
 >    * 526 Beautiful Arrangement
 >* Hard
 >    * 239 Sliding Window Maximum : A typical monotonic queue problem. 
+>    * 862 Shortest Subarray with Sum at Least K : A monotonic queue problem. 
 2. Dynamic Programming
 >* Easy
 >* Medium
 >    * 1567 Maximum Length of Subarray With Positive Product
 >    * 322 Coin Change, 518 Coin Change 2 : Basic dynamic programming problems. 
 >    * 576 Out of Boundary Paths
->    * 837 New 21 Game : Brilliant dp. 
+>    * 837 New 21 Game : Brilliant DP. 
+>* Hard
+>    * 879 Profitable Schemes
 3. Linked List
 >* Medium
 >    * 19 Remove Nth Node From End of List : Solve with only one pass.
