@@ -1,19 +1,20 @@
+#Time:O(n)
 class Solution:
     def scoreOfParentheses(self, S: str) -> int:
-        stack = []
+        result = []
         for i in S:
             if i=="(":
-                stack.append(0)
+                result.append(i)
             else:
-                if stack[-1]==0:
-                    stack[-1] = 1
-                    if len(stack)>1 and stack[-2]!=0:
-                        stack.pop()
-                        stack[-1]+=1
+                if result[-1]=="(":
+                    result.pop()
+                    num = 1
                 else:
-                    score = stack.pop()
-                    stack[-1] = score*2
-                    if len(stack)>1 and stack[-2]!=0:
-                        score = stack.pop()
-                        stack[-1]+= score
-        return stack[0]
+                    num = result.pop()
+                    num*=2
+                    result.pop()
+                if not result or result[-1]=="(":
+                    result.append(num)
+                else:
+                    result[-1]+=num
+        return result[0]
