@@ -49,10 +49,10 @@ Problems worth resolving
 >    * 207 Course Schedule : A typical topological sorting problem. 
 >    * 417 Pacific Atlantic Water Flow : The idea of reverse flow
 >* Hard
->.   * 773 Sliding Puzzle
+>    * 773 Sliding Puzzle
 7. Binary
 >* Easy
 >    * 191 Number of 1 Bits : The idea of n&-n.   
 8. String
 >* Medium
->.   * 648 Replace Words : The idea of Trie. 
+>    * 648 Replace Words : The idea of Trie. 
