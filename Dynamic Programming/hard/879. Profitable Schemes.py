@@ -1,17 +1,13 @@
-from collections import defaultdict
+#Time: O(n)
 class Solution:
-    def profitableSchemes(self, n: int, minProfit: int, group, profit) -> int:
+    def profitableSchemes(self, n: int, minProfit: int, group: List[int], profit: List[int]) -> int:
         MOD = pow(10,9) + 7
-        dp = []
-        for i in range(n+1):
-            dp.append([0]*(minProfit+1))
+        dp = [[0]*(minProfit+1) for _ in range(n+1)] # dp[i][j] means the number of schemes with i members that generates min(j,minProfit) profits. 
         dp[0][0] = 1
-        
-        for g,p in zip(group,profit):
-            for cur_g in range(n-g,-1,-1):
-                for cur_p in range(minProfit,-1,-1):
-                    dp[cur_g+g][min(cur_p+p,minProfit)]+=dp[cur_g][cur_p]
-        result = 0
-        for i in range(n+1):
-            result+=dp[i][minProfit]
-        return result%MOD
+        for n_member,p in zip(group,profit):
+            for i in range(n,-1,-1):
+                for j in range(minProfit,-1,-1):
+                    if i+n_member<=n:
+                        dp[i+n_member][min(j+p,minProfit)]+=dp[i][j]
+                        dp[i+n_member][min(j+p,minProfit)]%=MOD
+        return sum([dp[i][minProfit] for i in range(n+1)])%MOD
