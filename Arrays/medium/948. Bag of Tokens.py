@@ -1,16 +1,18 @@
-from collections import deque
 class Solution:
     def bagOfTokensScore(self, tokens: List[int], P: int) -> int:
-        tokens_deque = deque(sorted(tokens))
-        S = 0
-        while tokens_deque:
-            while tokens_deque and P>=tokens_deque[0]:
-                P-=tokens_deque.popleft()
-                S+=1
-            if len(tokens_deque)<=1: break
-            if S>0:
-                S-=1
-                P+=tokens_deque.pop()
-            if S==0 and P<tokens_deque[0]:
-                break
-        return S
+        if not tokens: return 0
+        tokens.sort()
+        l,r = 0,len(tokens)-1
+        score = 0
+        while l<r:
+            if tokens[l]<=P:
+                P-=tokens[l]
+                score+=1
+                l+=1
+            else:
+                if score==0: return 0
+                P+=tokens[r]
+                score-=1
+                r-=1
+        if tokens[l]<=P: score+=1
+        return score

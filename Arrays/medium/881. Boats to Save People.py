@@ -1,17 +1,12 @@
-from collections import deque
 class Solution:
     def numRescueBoats(self, people: List[int], limit: int) -> int:
-        people = deque(sorted(people))
+        people.sort()
+        l,r = 0,len(people)-1
         result = 0
-        while people:
-            if len(people)==1:
-                result+=1
-                break
-            if people[-1]+people[0]<=limit:
-                people.popleft()
-                people.pop()
-            else:
-                people.pop()
+        while l<r:
+            if people[l] + people[r]<=limit:
+                l+=1
             result+=1
-                
+            r-=1
+        if l==r: result+=1
         return result

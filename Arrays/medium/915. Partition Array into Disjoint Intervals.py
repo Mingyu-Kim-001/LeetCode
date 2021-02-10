@@ -1,14 +1,12 @@
 class Solution:
-    def partitionDisjoint(self, A) -> int:
-        maxList = [A[0]]
-        for i in A[1:]:
-            maxList.append(max(maxList[-1],i))
-        minList = [A[-1]]
-        for i in A[-2::-1]:
-            minList.append(min(minList[-1],i))
-        
-        n = len(A)
-        #print(maxList,minList)
-        for i in range(n):
-            if maxList[i]<=minList[n-i-2]:
-                return i+1
+    def partitionDisjoint(self, A: List[int]) -> int:
+        lEnd = 0
+        lMax = curMax = A[0]
+        i = 1
+        while i+1<len(A):
+            curMax = max(curMax,A[i])
+            if A[i]<lMax:
+                lMax = curMax
+                lEnd = i
+            i+=1
+        return lEnd+1
