@@ -1,34 +1,25 @@
+#Time: O(nlogn)
 class Solution:
-    def shipWithinDays(self, weights,D: int) -> int:
-#         prefixSums = weights[0]
-#         for i in range(1,len(weights)):
-#             prefixSums.append(prefixSums[-1]+weights[i])
-
-        def isPossible(weights,D,capacity):
-            if max(weights)>capacity: return False
-            day = 0
-            partSum = 0
-            for i in range(len(weights)):
-                if weights[i]+partSum<=capacity:
-                    partSum+= weights[i]
+    def shipWithinDays(self, weights: List[int], D: int) -> int:
+        def isPossible(capacity):
+            weightSum = 0
+            n_ship = 0
+            for weight in weights:
+                if weight>capacity: return False
+                
+                if weight+weightSum>capacity:
+                    n_ship+=1
+                    weightSum = weight
                 else:
-                    partSum = weights[i]
-                    day+=1
-                if day>=D:
-                    return False
-                #print(weights[i],partSum,day)
-            return True
-        left = 0
-        right = sum(weights)
-        while left<right:
-            mid = (left+right)//2
-            if isPossible(weights,D,mid):
-                if not isPossible(weights,D,mid-1):
-                    return mid
-                else:
-                    right = mid - 1
+                    weightSum+=weight
+            return n_ship<D
+        l,r = 0,sum(weights)
+        # print(isPossible(11))
+        while l<r:
+            m = (l+r)//2
+            if isPossible(m):
+                if not isPossible(m-1): return m
+                r = m-1
             else:
-                if isPossible(weights,D,mid+1):
-                    return mid+1
-                else:
-                    left = mid + 1
+                if isPossible(m+1): return m+1
+                l = m+1

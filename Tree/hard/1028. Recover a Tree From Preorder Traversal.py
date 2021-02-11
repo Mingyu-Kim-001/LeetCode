@@ -1,31 +1,35 @@
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+
+#Time:O(n)
 class Solution:
     def recoverFromPreorder(self, S: str) -> TreeNode:
-        idx = 0
-        while idx<len(S) and S[idx]!="-":
-            idx+=1
-        num = int(S[0:idx])
-        root = TreeNode(num)
-        stack = [[root,1]]
-        while idx<len(S):
-            if S[idx]=="-":
-                start_hypen = idx
-                while idx<len(S) and S[idx]=="-":
-                    idx+=1
-                hypen_count = idx-start_hypen
-                
-            start_int = idx
-            while idx<len(S) and S[idx]!="-":
-                idx+=1
-            num = int(S[start_int:idx])
-            #print(num,hypen_count)
-            while stack and stack[-1][1]!=hypen_count:
+        i = 0
+        while i<len(S):
+            if S[i]=="-":break
+            i+=1
+        root = TreeNode(val=int(S[:i]))
+        stack = [[root,0]]
+        while i<len(S):
+            depth = 0
+            while i<len(S):
+                if S[i]!="-": break
+                depth+=1
+                i+=1
+            prev = i
+            while i<len(S):
+                if S[i]=="-": break
+                i+=1
+            node = TreeNode(val=int(S[prev:i]))
+            while stack and stack[-1][1]+1!=depth:
                 stack.pop()
-            if not stack[-1][0].left:
-                stack[-1][0].left = TreeNode(num)
-                stack.append([stack[-1][0].left,stack[-1][1]+1])
+            if stack[-1][0].left: 
+                stack[-1][0].right = node
             else:
-                stack[-1][0].right = TreeNode(num)
-                stack.append([stack[-1][0].right,stack[-1][1]+1])
-            #print(stack)
-        #print(root.val)
+                stack[-1][0].left = node
+            stack.append([node,depth])
         return root
