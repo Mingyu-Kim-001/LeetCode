@@ -5,26 +5,20 @@
 #         self.left = left
 #         self.right = right
 from collections import deque
-from collections import deque
 class Solution:
     def isCompleteTree(self, root: TreeNode) -> bool:
-        dq = deque([])
-        dq.append(root)
-        isEnd = False
-        
-        while dq:
-            node = dq.popleft()
-            if isEnd:
-                if node.left!=None or node.right!=None:
-                    return False
-            else:
-                if node.left==None:
-                    if node.right!=None: return False
-                    isEnd = True
-                elif node.right==None:
-                    isEnd = True
-                    dq.append(node.left)
+        reachEndLayer = False
+        bfs = deque([root])
+        while bfs:
+            node = bfs.popleft()
+            if not reachEndLayer:
+                if not node.left and node.right: return False
+                if node.left:
+                    bfs.append(node.left)
+                if node.right: 
+                    bfs.append(node.right)
                 else:
-                    dq.append(node.left)
-                    dq.append(node.right)
+                    reachEndLayer = True
+            else:
+                if node.left or node.right: return False
         return True
