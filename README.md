@@ -21,6 +21,7 @@ Problems worth resolving
 >    * 347 Top K Frequent Elements : The idea of bucket sort.
 >    * 435 Non-overlapping Intervals : Sorting intervals. 
 >    * 526 Beautiful Arrangement
+>    * 1014 Best Sightseeing Pair
 >* Hard
 >    * 239 Sliding Window Maximum : A typical monotonic queue problem. 
 >    * 862 Shortest Subarray with Sum at Least K : A monotonic queue problem. 
@@ -32,7 +33,7 @@ Problems worth resolving
 >    * 576 Out of Boundary Paths
 >    * 837 New 21 Game : Brilliant DP. 
 >* Hard
->    * 879 Profitable Schemes
+>    * 879 Profitable Schemes : 2D dp.
 3. Linked List
 >* Medium
 >    * 19 Remove Nth Node From End of List : Solve with only one pass.
@@ -44,15 +45,16 @@ Problems worth resolving
 >    * 105 Construct Binary Tree from Preorder and Inorder Traversal : Nice recursion solution exists. 
 >* Hard
 >    * 127 Word Ladder : An unique problem that DFS gives TLE but BFS passes.
+>    * 1028 Recover a Tree From Preorder Traversal : Nice usage of stack. 
 6. Graph
 >* Medium
 >    * 207 Course Schedule : A typical topological sorting problem. 
 >    * 417 Pacific Atlantic Water Flow : The idea of reverse flow
 >* Hard
->    * 773 Sliding Puzzle
+>.   * 773 Sliding Puzzle
 7. Binary
 >* Easy
 >    * 191 Number of 1 Bits : The idea of n&-n.   
 8. String
 >* Medium
->    * 648 Replace Words : The idea of Trie. 
+>.   * 648 Replace Words : The idea of Trie. 
