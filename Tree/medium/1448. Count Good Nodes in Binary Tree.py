@@ -4,19 +4,15 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
+#Time: O(n)
 class Solution:
     def goodNodes(self, root: TreeNode) -> int:
-        result = 0
-        def DFS(node,maxValue):
-            if not node:return
-            nonlocal result
-            if node.val>=maxValue:
-                result+=1
-                DFS(node.left,node.val)
-                DFS(node.right,node.val)
-            else:
-                DFS(node.left,maxValue)
-                DFS(node.right,maxValue)
-        DFS(root,root.val)
-        return result
-            
+        def DFS(node,maxVal):
+            if not node: return 0
+            count = 0
+            if maxVal<=node.val:
+                maxVal = node.val
+                count = 1
+            return count + DFS(node.left,maxVal) + DFS(node.right,maxVal)
+        return DFS(root,float("-inf"))

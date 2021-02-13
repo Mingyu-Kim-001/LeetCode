@@ -5,17 +5,14 @@
 #         self.left = None
 #         self.right = None
 
+#Time: O(n)
 class Solution:
     def getTargetCopy(self, original: TreeNode, cloned: TreeNode, target: TreeNode) -> TreeNode:
-        result = None
-        def traverse(root):
-            nonlocal result
-            if not root: return
-            if root.val==target.val:
-                result = root
-                return
-            if not result:
-                traverse(root.right)
-                traverse(root.left)
-        traverse(cloned)
-        return result
+        def DFS(node,clonedNode):
+            if not node: return
+            if node==target:return clonedNode
+            left = DFS(node.left,clonedNode.left)
+            if left: return left
+            right = DFS(node.right,clonedNode.right)
+            if right: return right
+        return DFS(original,cloned)
