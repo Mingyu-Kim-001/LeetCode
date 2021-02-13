@@ -1,4 +1,4 @@
-#Time: O(unlock)
+#Time: O(nlogk)
 import heapq as hq
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:

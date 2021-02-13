@@ -3,10 +3,10 @@ Problems solved
 
 |        |   Arrays |   Binary |   Dynamic Programming |   Graph |   Heap |   Linked List |   String |   Tree |   Two Pointers |   total |
 |:-------|---------:|---------:|----------------------:|--------:|-------:|--------------:|---------:|-------:|---------------:|--------:|
-| easy   |       17 |        2 |                     1 |       0 |      0 |             3 |        6 |      7 |              0 |      36 |
-| medium |       41 |        1 |                    10 |       7 |      1 |             5 |       11 |     10 |              3 |      89 |
-| hard   |        6 |        0 |                     4 |       4 |      1 |             1 |        0 |      3 |              1 |      20 |
-| total  |       64 |        3 |                    15 |      11 |      2 |             9 |       17 |     20 |              4 |     145 |
+| easy   |       17 |        2 |                     1 |       0 |      0 |             3 |        7 |      7 |              0 |      37 |
+| medium |       45 |        1 |                    11 |       8 |      1 |             5 |       12 |     10 |              3 |      96 |
+| hard   |        6 |        0 |                     5 |       4 |      1 |             1 |        0 |      3 |              1 |      21 |
+| total  |       68 |        3 |                    17 |      12 |      2 |             9 |       19 |     20 |              4 |     154 |
 
 Problems worth resolving 
 
@@ -32,8 +32,10 @@ Problems worth resolving
 >    * 322 Coin Change, 518 Coin Change 2 : Basic dynamic programming problems. 
 >    * 576 Out of Boundary Paths
 >    * 837 New 21 Game : Brilliant DP. 
+>    * 1155 Number of Dice Rolls With Target Sum
 >* Hard
 >    * 879 Profitable Schemes : 2D dp.
+>    * 1416 Restore The Array
 3. Linked List
 >* Medium
 >    * 19 Remove Nth Node From End of List : Solve with only one pass.
@@ -44,14 +46,16 @@ Problems worth resolving
 >* Medium
 >    * 105 Construct Binary Tree from Preorder and Inorder Traversal : Nice recursion solution exists. 
 >* Hard
->    * 127 Word Ladder : An unique problem that DFS gives TLE but BFS passes.
 >    * 1028 Recover a Tree From Preorder Traversal : Nice usage of stack. 
 6. Graph
 >* Medium
 >    * 207 Course Schedule : A typical topological sorting problem. 
->    * 417 Pacific Atlantic Water Flow : The idea of reverse flow
+>    * 417 Pacific Atlantic Water Flow : The idea of reverse flow.
+>    * 1631 Path With Minimum Effort : A typical Dijkstra Algorithm problem. DFS would cause TLE. 
+>    * 1091 Shortest Path in Binary Matrix : A problem that DFS gives TLE but BFS passes.
 >* Hard
->.   * 773 Sliding Puzzle
+>    * 773 Sliding Puzzle
+>    * 127 Word Ladder : A problem that DFS gives TLE but BFS passes.
 7. Binary
 >* Easy
 >    * 191 Number of 1 Bits : The idea of n&-n.   
