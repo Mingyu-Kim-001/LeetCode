@@ -4,9 +4,9 @@ Problems solved
 |        |   Arrays |   Binary |   Dynamic Programming |   Graph |   Heap |   Linked List |   String |   Tree |   Two Pointers |   total |
 |:-------|---------:|---------:|----------------------:|--------:|-------:|--------------:|---------:|-------:|---------------:|--------:|
 | easy   |       17 |        2 |                     1 |       0 |      0 |             3 |        7 |      7 |              0 |      37 |
-| medium |       45 |        1 |                    11 |       8 |      1 |             5 |       12 |     10 |              3 |      96 |
+| medium |       45 |        1 |                    11 |       9 |      1 |             5 |       12 |     10 |              3 |      97 |
 | hard   |        6 |        0 |                     5 |       4 |      1 |             1 |        0 |      3 |              1 |      21 |
-| total  |       68 |        3 |                    17 |      12 |      2 |             9 |       19 |     20 |              4 |     154 |
+| total  |       68 |        3 |                    17 |      13 |      2 |             9 |       19 |     20 |              4 |     155 |
 
 Problems worth resolving 
 
