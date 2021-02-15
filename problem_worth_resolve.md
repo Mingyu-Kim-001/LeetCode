@@ -23,6 +23,7 @@ Problems worth resolving
 >    * 576 Out of Boundary Paths
 >    * 837 New 21 Game : Brilliant DP. 
 >    * 1155 Number of Dice Rolls With Target Sum
+>    * 1143 Longest Common Subsequence
 >* Hard
 >    * 879 Profitable Schemes : 2D dp.
 >    * 1416 Restore The Array

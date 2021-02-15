@@ -4,9 +4,9 @@ Problems solved
 |        |   Arrays |   Binary |   Dynamic Programming |   Graph |   Heap |   Linked List |   String |   Tree |   Two Pointers |   total |
 |:-------|---------:|---------:|----------------------:|--------:|-------:|--------------:|---------:|-------:|---------------:|--------:|
 | easy   |       17 |        2 |                     1 |       0 |      0 |             3 |        7 |      7 |              0 |      37 |
-| medium |       45 |        1 |                    11 |       9 |      1 |             5 |       12 |     10 |              3 |      97 |
+| medium |       46 |        1 |                    12 |       9 |      1 |             5 |       12 |     10 |              3 |      99 |
 | hard   |        6 |        0 |                     5 |       4 |      1 |             1 |        0 |      3 |              1 |      21 |
-| total  |       68 |        3 |                    17 |      13 |      2 |             9 |       19 |     20 |              4 |     155 |
+| total  |       69 |        3 |                    18 |      13 |      2 |             9 |       19 |     20 |              4 |     157 |
 
 Problems worth resolving 
 
@@ -33,6 +33,7 @@ Problems worth resolving
 >    * 576 Out of Boundary Paths
 >    * 837 New 21 Game : Brilliant DP. 
 >    * 1155 Number of Dice Rolls With Target Sum
+>    * 1143 Longest Common Subsequence
 >* Hard
 >    * 879 Profitable Schemes : 2D dp.
 >    * 1416 Restore The Array
