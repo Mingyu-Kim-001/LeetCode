@@ -43,6 +43,7 @@ Problems worth resolving
 >    * 207 Course Schedule : A typical topological sorting problem. 
 >    * 417 Pacific Atlantic Water Flow : The idea of reverse flow.
 >    * 1631 Path With Minimum Effort : A typical Dijkstra Algorithm problem. DFS would cause TLE. 
+>    * 1584 Min Cost to Connect All Points : Minimum Spanning Tree
 >    * 1091 Shortest Path in Binary Matrix : A problem that DFS gives TLE but BFS passes.
 >* Hard
 >    * 773 Sliding Puzzle

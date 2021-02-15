@@ -4,9 +4,9 @@ Problems solved
 |        |   Arrays |   Binary |   Dynamic Programming |   Graph |   Heap |   Linked List |   String |   Tree |   Two Pointers |   total |
 |:-------|---------:|---------:|----------------------:|--------:|-------:|--------------:|---------:|-------:|---------------:|--------:|
 | easy   |       17 |        2 |                     1 |       0 |      0 |             3 |        7 |      7 |              0 |      37 |
-| medium |       46 |        1 |                    12 |       9 |      1 |             5 |       12 |     10 |              3 |      99 |
+| medium |       46 |        1 |                    12 |      10 |      1 |             5 |       12 |     10 |              3 |     100 |
 | hard   |        6 |        0 |                     5 |       4 |      1 |             1 |        0 |      3 |              1 |      21 |
-| total  |       69 |        3 |                    18 |      13 |      2 |             9 |       19 |     20 |              4 |     157 |
+| total  |       69 |        3 |                    18 |      14 |      2 |             9 |       19 |     20 |              4 |     158 |
 
 Problems worth resolving 
 
@@ -53,6 +53,7 @@ Problems worth resolving
 >    * 207 Course Schedule : A typical topological sorting problem. 
 >    * 417 Pacific Atlantic Water Flow : The idea of reverse flow.
 >    * 1631 Path With Minimum Effort : A typical Dijkstra Algorithm problem. DFS would cause TLE. 
+>    * 1584 Min Cost to Connect All Points : Minimum Spanning Tree
 >    * 1091 Shortest Path in Binary Matrix : A problem that DFS gives TLE but BFS passes.
 >* Hard
 >    * 773 Sliding Puzzle
