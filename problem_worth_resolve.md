@@ -12,6 +12,7 @@ Problems worth resolving
 >    * 435 Non-overlapping Intervals : Sorting intervals. 
 >    * 526 Beautiful Arrangement
 >    * 1014 Best Sightseeing Pair
+>    * 56 Merge Intervals
 >* Hard
 >    * 239 Sliding Window Maximum : A typical monotonic queue problem. 
 >    * 862 Shortest Subarray with Sum at Least K : A monotonic queue problem. 
