@@ -4,9 +4,9 @@ Problems solved
 |        |   Arrays |   Binary |   Dynamic Programming |   Graph |   Heap |   Linked List |   String |   Tree |   Two Pointers |   total |
 |:-------|---------:|---------:|----------------------:|--------:|-------:|--------------:|---------:|-------:|---------------:|--------:|
 | easy   |       17 |        2 |                     1 |       0 |      0 |             3 |        7 |      7 |              0 |      37 |
-| medium |       46 |        1 |                    12 |      10 |      1 |             5 |       12 |     10 |              3 |     100 |
+| medium |       47 |        1 |                    12 |      10 |      1 |             5 |       12 |     10 |              3 |     101 |
 | hard   |        6 |        0 |                     5 |       4 |      1 |             1 |        0 |      3 |              1 |      21 |
-| total  |       69 |        3 |                    18 |      14 |      2 |             9 |       19 |     20 |              4 |     158 |
+| total  |       70 |        3 |                    18 |      14 |      2 |             9 |       19 |     20 |              4 |     159 |
 
 Problems worth resolving 
 
@@ -22,6 +22,7 @@ Problems worth resolving
 >    * 435 Non-overlapping Intervals : Sorting intervals. 
 >    * 526 Beautiful Arrangement
 >    * 1014 Best Sightseeing Pair
+>    * 56 Merge Intervals
 >* Hard
 >    * 239 Sliding Window Maximum : A typical monotonic queue problem. 
 >    * 862 Shortest Subarray with Sum at Least K : A monotonic queue problem. 
