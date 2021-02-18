@@ -46,6 +46,7 @@ Problems worth resolving
 >    * 1631 Path With Minimum Effort : A typical Dijkstra Algorithm problem. DFS would cause TLE. 
 >    * 1584 Min Cost to Connect All Points : Minimum Spanning Tree
 >    * 1091 Shortest Path in Binary Matrix : A problem that DFS gives TLE but BFS passes.
+>    * 1334 Find the City With the Smallest Number of Neighbors at a Threshold Distance : Floyd Algorithm. 
 >* Hard
 >    * 773 Sliding Puzzle
 >    * 127 Word Ladder : A problem that DFS gives TLE but BFS passes.
