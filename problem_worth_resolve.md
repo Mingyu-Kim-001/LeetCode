@@ -53,6 +53,12 @@ Problems worth resolving
 7. Binary
 >* Easy
 >    * 191 Number of 1 Bits : The idea of n&-n.   
+>* Medium
+>    * 1442 Count Triplets That Can Form Two Arrays of Equal XOR : Time O(n) using the properties of XOR. 
 8. String
 >* Medium
->   * 648 Replace Words : The idea of Trie. 
+>    * 648 Replace Words : The idea of Trie. 
+9. Union Find
+>* Hard
+>    * 1627 Graph Connectivity With Threshold : A typical union find problem. 
+>    * 1697 Checking Existence of Edge Length Limited Paths
