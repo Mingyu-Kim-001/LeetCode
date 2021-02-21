@@ -1,12 +1,12 @@
 # LeetCode
 Problems solved
 
-|        |   Arrays |   Binary |   Dynamic Programming |   Graph |   Heap |   Linked List |   String |   Tree |   Two Pointers |   total |
-|:-------|---------:|---------:|----------------------:|--------:|-------:|--------------:|---------:|-------:|---------------:|--------:|
-| easy   |       17 |        2 |                     1 |       0 |      0 |             3 |        7 |      7 |              0 |      37 |
-| medium |       49 |        1 |                    12 |      11 |      1 |             5 |       13 |     10 |              3 |     105 |
-| hard   |        7 |        0 |                     5 |       4 |      1 |             1 |        0 |      3 |              1 |      22 |
-| total  |       73 |        3 |                    18 |      15 |      2 |             9 |       20 |     20 |              4 |     164 |
+|        |   Arrays |   Binary |   Dynamic Programming |   Graph |   Heap |   Linked List |   String |   Tree |   Two Pointers |   Union Find |   total |
+|:-------|---------:|---------:|----------------------:|--------:|-------:|--------------:|---------:|-------:|---------------:|-------------:|--------:|
+| easy   |       17 |        2 |                     1 |       0 |      0 |             3 |        8 |      7 |              0 |            0 |      38 |
+| medium |       52 |        2 |                    13 |      14 |      1 |             5 |       15 |     10 |              3 |            0 |     115 |
+| hard   |        8 |        0 |                     5 |       4 |      1 |             1 |        0 |      3 |              1 |            2 |      25 |
+| total  |       77 |        4 |                    19 |      18 |      2 |             9 |       23 |     20 |              4 |            2 |     178 |
 
 Problems worth resolving 
 
@@ -63,6 +63,12 @@ Problems worth resolving
 7. Binary
 >* Easy
 >    * 191 Number of 1 Bits : The idea of n&-n.   
+>* Medium
+>    * 1442 Count Triplets That Can Form Two Arrays of Equal XOR : Time O(n) using the properties of XOR. 
 8. String
 >* Medium
->   * 648 Replace Words : The idea of Trie. 
+>    * 648 Replace Words : The idea of Trie. 
+9. Union Find
+>* Hard
+>    * 1627 Graph Connectivity With Threshold : A typical union find problem. 
+>    * 1697 Checking Existence of Edge Length Limited Paths
