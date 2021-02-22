@@ -3,10 +3,10 @@ Problems solved
 
 |        |   Arrays |   Binary |   Dynamic Programming |   Graph |   Heap |   Linked List |   String |   Tree |   Two Pointers |   Union Find |   total |
 |:-------|---------:|---------:|----------------------:|--------:|-------:|--------------:|---------:|-------:|---------------:|-------------:|--------:|
-| easy   |       17 |        2 |                     1 |       0 |      0 |             3 |        8 |      7 |              0 |            0 |      38 |
-| medium |       52 |        2 |                    13 |      14 |      1 |             5 |       15 |     10 |              3 |            0 |     115 |
-| hard   |        8 |        0 |                     5 |       4 |      1 |             1 |        0 |      3 |              1 |            2 |      25 |
-| total  |       77 |        4 |                    19 |      18 |      2 |             9 |       23 |     20 |              4 |            2 |     178 |
+| easy   |       17 |        2 |                     1 |       0 |      0 |             3 |        9 |      7 |              0 |            0 |      39 |
+| medium |       52 |        2 |                    13 |      14 |      1 |             5 |       16 |     10 |              3 |            1 |     117 |
+| hard   |        8 |        0 |                     5 |       4 |      1 |             1 |        1 |      3 |              1 |            2 |      26 |
+| total  |       77 |        4 |                    19 |      18 |      2 |             9 |       26 |     20 |              4 |            3 |     182 |
 
 Problems worth resolving 
 
@@ -66,8 +66,12 @@ Problems worth resolving
 >* Medium
 >    * 1442 Count Triplets That Can Form Two Arrays of Equal XOR : Time O(n) using the properties of XOR. 
 8. String
+>* Easy
+>    * 28 Implement strStr() : KMP algorithm
 >* Medium
 >    * 648 Replace Words : The idea of Trie. 
+>* Hard
+>    * 1392 Longest Happy Prefix : KMP algorithm
 9. Union Find
 >* Hard
 >    * 1627 Graph Connectivity With Threshold : A typical union find problem. 
