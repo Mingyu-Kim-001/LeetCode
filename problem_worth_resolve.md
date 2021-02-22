@@ -56,8 +56,12 @@ Problems worth resolving
 >* Medium
 >    * 1442 Count Triplets That Can Form Two Arrays of Equal XOR : Time O(n) using the properties of XOR. 
 8. String
+>* Easy
+>    * 28 Implement strStr() : KMP algorithm
 >* Medium
 >    * 648 Replace Words : The idea of Trie. 
+>* Hard
+>    * 1392 Longest Happy Prefix : KMP algorithm
 9. Union Find
 >* Hard
 >    * 1627 Graph Connectivity With Threshold : A typical union find problem. 
