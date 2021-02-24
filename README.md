@@ -4,9 +4,9 @@ Problems solved
 |        |   Arrays |   Binary |   Dynamic Programming |   Graph |   Heap |   Linked List |   String |   Tree |   Two Pointers |   Union Find |   total |
 |:-------|---------:|---------:|----------------------:|--------:|-------:|--------------:|---------:|-------:|---------------:|-------------:|--------:|
 | easy   |       17 |        2 |                     1 |       0 |      0 |             3 |        9 |      7 |              0 |            0 |      39 |
-| medium |       54 |        2 |                    13 |      14 |      1 |             5 |       16 |     10 |              3 |            1 |     119 |
-| hard   |        8 |        0 |                     5 |       4 |      1 |             1 |        1 |      3 |              1 |            2 |      26 |
-| total  |       79 |        4 |                    19 |      18 |      2 |             9 |       26 |     20 |              4 |            3 |     184 |
+| medium |       54 |        2 |                    14 |      16 |      1 |             5 |       16 |     11 |              3 |            2 |     124 |
+| hard   |        9 |        0 |                     5 |       4 |      1 |             1 |        1 |      3 |              1 |            2 |      27 |
+| total  |       80 |        4 |                    20 |      20 |      2 |             9 |       26 |     21 |              4 |            4 |     190 |
 
 Problems worth resolving 
 
@@ -25,7 +25,7 @@ Problems worth resolving
 >    * 56 Merge Intervals
 >* Hard
 >    * 239 Sliding Window Maximum : A typical monotonic queue problem. 
->    * 862 Shortest Subarray with Sum at Least K : A monotonic queue problem. 
+>    * 862 Shortest Subarray with Sum at Least K, 1499 Max Value of Equation : Monotonic queue problems(very simillar).
 2. Dynamic Programming
 >* Easy
 >* Medium

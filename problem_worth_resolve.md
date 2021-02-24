@@ -15,7 +15,7 @@ Problems worth resolving
 >    * 56 Merge Intervals
 >* Hard
 >    * 239 Sliding Window Maximum : A typical monotonic queue problem. 
->    * 862 Shortest Subarray with Sum at Least K : A monotonic queue problem. 
+>    * 862 Shortest Subarray with Sum at Least K, 1499 Max Value of Equation : Monotonic queue problems(very simillar).
 2. Dynamic Programming
 >* Easy
 >* Medium
