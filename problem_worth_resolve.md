@@ -36,7 +36,7 @@ Problems worth resolving
 >    * 23 Merge k Sorted Lists : A typical heap problem. 
 5. Tree
 >* Medium
->    * 105 Construct Binary Tree from Preorder and Inorder Traversal : Nice recursion solution exists. 
+>    * 105 Construct Binary Tree from Preorder and Inorder Traversal, 889 Construct Binary Tree from Preorder and Postorder Traversal : Nice recursion solution exists. 
 >* Hard
 >    * 1028 Recover a Tree From Preorder Traversal : Nice usage of stack. 
 6. Graph

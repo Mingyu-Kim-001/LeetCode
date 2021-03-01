@@ -3,10 +3,10 @@ Problems solved
 
 |        |   Arrays |   Binary |   Dynamic Programming |   Graph |   Heap |   Linked List |   String |   Tree |   Two Pointers |   Union Find |   total |
 |:-------|---------:|---------:|----------------------:|--------:|-------:|--------------:|---------:|-------:|---------------:|-------------:|--------:|
-| easy   |       17 |        2 |                     1 |       0 |      0 |             3 |        9 |      8 |              0 |            0 |      40 |
-| medium |       56 |        2 |                    14 |      16 |      1 |             5 |       17 |     11 |              3 |            2 |     127 |
+| easy   |       17 |        2 |                     1 |       0 |      0 |             3 |        9 |      9 |              0 |            0 |      41 |
+| medium |       60 |        2 |                    15 |      16 |      1 |             5 |       18 |     12 |              3 |            2 |     134 |
 | hard   |       10 |        0 |                     5 |       4 |      1 |             1 |        1 |      3 |              1 |            2 |      28 |
-| total  |       83 |        4 |                    20 |      20 |      2 |             9 |       27 |     22 |              4 |            4 |     195 |
+| total  |       87 |        4 |                    21 |      20 |      2 |             9 |       28 |     24 |              4 |            4 |     203 |
 
 Problems worth resolving 
 
@@ -46,7 +46,7 @@ Problems worth resolving
 >    * 23 Merge k Sorted Lists : A typical heap problem. 
 5. Tree
 >* Medium
->    * 105 Construct Binary Tree from Preorder and Inorder Traversal : Nice recursion solution exists. 
+>    * 105 Construct Binary Tree from Preorder and Inorder Traversal, 889 Construct Binary Tree from Preorder and Postorder Traversal : Nice recursion solution exists. 
 >* Hard
 >    * 1028 Recover a Tree From Preorder Traversal : Nice usage of stack. 
 6. Graph
