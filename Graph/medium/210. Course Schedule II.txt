@@ -1,0 +1,28 @@
+#Time: O(V+E)
+from collections import defaultdict
+class Solution:
+    def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
+        children = defaultdict(list)
+        for a,b in prerequisites:
+            children[b].append(a)
+        visit = [0]*numCourses
+        result = []
+        
+        def DFS(course):
+            if visit[course] == 1:
+                return True
+            if visit[course] == -1:
+                return False
+            visit[course] = -1
+            for child in children[course]:
+                if not DFS(child):
+                    return False
+            visit[course] = 1
+            result.append(course)
+            return True
+        
+        for course in range(numCourses):
+            if not DFS(course):
+                return []
+        return result[::-1]
+            

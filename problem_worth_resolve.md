@@ -66,3 +66,5 @@ Problems worth resolving
 >* Hard
 >    * 1627 Graph Connectivity With Threshold : A typical union find problem. 
 >    * 1697 Checking Existence of Edge Length Limited Paths
+10. Backtracking
+>*   * 39 Combination Sum
