@@ -1,12 +1,12 @@
 # LeetCode
 Problems solved
 
-|        |   Arrays |   Binary |   Dynamic Programming |   Graph |   Heap |   Linked List |   String |   Tree |   Two Pointers |   Union Find |   total |
-|:-------|---------:|---------:|----------------------:|--------:|-------:|--------------:|---------:|-------:|---------------:|-------------:|--------:|
-| easy   |       19 |        2 |                     1 |       0 |      0 |             3 |        9 |     10 |              0 |            0 |      44 |
-| medium |       62 |        2 |                    15 |      16 |      1 |             5 |       18 |     14 |              3 |            2 |     138 |
-| hard   |       10 |        0 |                     5 |       4 |      1 |             1 |        1 |      3 |              1 |            2 |      28 |
-| total  |       91 |        4 |                    21 |      20 |      2 |             9 |       28 |     27 |              4 |            4 |     210 |
+|        |   Arrays |   Back Tracking |   Binary |   Dynamic Programming |   Graph |   Heap |   Linked List |   String |   Tree |   Two Pointers |   Union Find |   total |
+|:-------|---------:|----------------:|---------:|----------------------:|--------:|-------:|--------------:|---------:|-------:|---------------:|-------------:|--------:|
+| easy   |       19 |               0 |        2 |                     1 |       0 |      0 |             3 |        9 |     11 |              0 |            0 |      45 |
+| medium |       64 |               1 |        2 |                    16 |      17 |      1 |             5 |       20 |     14 |              3 |            2 |     145 |
+| hard   |       10 |               0 |        0 |                     5 |       4 |      1 |             1 |        1 |      3 |              1 |            2 |      28 |
+| total  |       93 |               1 |        4 |                    22 |      21 |      2 |             9 |       30 |     28 |              4 |            4 |     218 |
 
 Problems worth resolving 
 
@@ -76,3 +76,5 @@ Problems worth resolving
 >* Hard
 >    * 1627 Graph Connectivity With Threshold : A typical union find problem. 
 >    * 1697 Checking Existence of Edge Length Limited Paths
+10. Backtracking
+>*   * 39 Combination Sum
