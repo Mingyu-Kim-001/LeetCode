@@ -13,6 +13,7 @@ Problems worth resolving
 >    * 526 Beautiful Arrangement
 >    * 1014 Best Sightseeing Pair
 >    * 56 Merge Intervals
+>    * 406 Queue Reconstruction by Height
 >* Hard
 >    * 239 Sliding Window Maximum : A typical monotonic queue problem. 
 >    * 862 Shortest Subarray with Sum at Least K, 1499 Max Value of Equation : Monotonic queue problems(very simillar).

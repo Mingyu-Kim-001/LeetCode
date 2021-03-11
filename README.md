@@ -3,10 +3,10 @@ Problems solved
 
 |        |   Arrays |   Back Tracking |   Binary |   Dynamic Programming |   Graph |   Heap |   Linked List |   String |   Tree |   Two Pointers |   Union Find |   total |
 |:-------|---------:|----------------:|---------:|----------------------:|--------:|-------:|--------------:|---------:|-------:|---------------:|-------------:|--------:|
-| easy   |       19 |               0 |        2 |                     1 |       0 |      0 |             3 |       10 |     11 |              0 |            0 |      46 |
-| medium |       65 |               1 |        2 |                    18 |      17 |      1 |             5 |       20 |     18 |              3 |            2 |     152 |
+| easy   |       20 |               0 |        2 |                     1 |       0 |      0 |             3 |       10 |     11 |              0 |            0 |      47 |
+| medium |       65 |               1 |        2 |                    20 |      17 |      1 |             5 |       22 |     19 |              3 |            2 |     157 |
 | hard   |       10 |               0 |        0 |                     5 |       4 |      1 |             1 |        1 |      3 |              1 |            2 |      28 |
-| total  |       94 |               1 |        4 |                    24 |      21 |      2 |             9 |       31 |     32 |              4 |            4 |     226 |
+| total  |       95 |               1 |        4 |                    26 |      21 |      2 |             9 |       33 |     33 |              4 |            4 |     232 |
 
 Problems worth resolving 
 
@@ -23,6 +23,7 @@ Problems worth resolving
 >    * 526 Beautiful Arrangement
 >    * 1014 Best Sightseeing Pair
 >    * 56 Merge Intervals
+>    * 406 Queue Reconstruction by Height
 >* Hard
 >    * 239 Sliding Window Maximum : A typical monotonic queue problem. 
 >    * 862 Shortest Subarray with Sum at Least K, 1499 Max Value of Equation : Monotonic queue problems(very simillar).
