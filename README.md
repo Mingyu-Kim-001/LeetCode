@@ -3,10 +3,10 @@ Problems solved
 
 |        |   Arrays |   Back Tracking |   Binary |   Dynamic Programming |   Graph |   Heap |   Linked List |   String |   Tree |   Two Pointers |   Union Find |   total |
 |:-------|---------:|----------------:|---------:|----------------------:|--------:|-------:|--------------:|---------:|-------:|---------------:|-------------:|--------:|
-| easy   |       20 |               0 |        2 |                     1 |       0 |      0 |             3 |       10 |     11 |              0 |            0 |      47 |
-| medium |       65 |               1 |        2 |                    20 |      17 |      1 |             5 |       22 |     19 |              3 |            2 |     157 |
+| easy   |       21 |               0 |        2 |                     1 |       0 |      0 |             3 |       10 |     13 |              0 |            0 |      50 |
+| medium |       66 |               1 |        2 |                    20 |      17 |      1 |             6 |       23 |     21 |              3 |            2 |     162 |
 | hard   |       10 |               0 |        0 |                     5 |       4 |      1 |             1 |        1 |      3 |              1 |            2 |      28 |
-| total  |       95 |               1 |        4 |                    26 |      21 |      2 |             9 |       33 |     33 |              4 |            4 |     232 |
+| total  |       97 |               1 |        4 |                    26 |      21 |      2 |            10 |       34 |     37 |              4 |            4 |     240 |
 
 Problems worth resolving 
 
@@ -48,6 +48,7 @@ Problems worth resolving
 5. Tree
 >* Medium
 >    * 105 Construct Binary Tree from Preorder and Inorder Traversal, 889 Construct Binary Tree from Preorder and Postorder Traversal : Nice recursion solution exists. 
+>    * 437 Path Sum III : Prefix method on the binary tree. 
 >* Hard
 >    * 1028 Recover a Tree From Preorder Traversal : Nice usage of stack. 
 6. Graph
