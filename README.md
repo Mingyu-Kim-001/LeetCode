@@ -4,9 +4,9 @@ Problems solved
 |        |   Arrays |   Back Tracking |   Binary |   Dynamic Programming |   Graph |   Heap |   Linked List |   String |   Tree |   Two Pointers |   Union Find |   total |
 |:-------|---------:|----------------:|---------:|----------------------:|--------:|-------:|--------------:|---------:|-------:|---------------:|-------------:|--------:|
 | easy   |       21 |               0 |        2 |                     1 |       0 |      0 |             3 |       10 |     13 |              0 |            0 |      50 |
-| medium |       66 |               1 |        2 |                    20 |      17 |      1 |             6 |       23 |     21 |              3 |            2 |     162 |
+| medium |       67 |               1 |        2 |                    20 |      17 |      1 |             6 |       23 |     21 |              3 |            2 |     163 |
 | hard   |       10 |               0 |        0 |                     5 |       4 |      1 |             1 |        1 |      3 |              1 |            2 |      28 |
-| total  |       97 |               1 |        4 |                    26 |      21 |      2 |            10 |       34 |     37 |              4 |            4 |     240 |
+| total  |       98 |               1 |        4 |                    26 |      21 |      2 |            10 |       34 |     37 |              4 |            4 |     241 |
 
 Problems worth resolving 
 
@@ -24,6 +24,7 @@ Problems worth resolving
 >    * 1014 Best Sightseeing Pair
 >    * 56 Merge Intervals
 >    * 406 Queue Reconstruction by Height
+>    * 739 Daily Temperatures
 >* Hard
 >    * 239 Sliding Window Maximum : A typical monotonic queue problem. 
 >    * 862 Shortest Subarray with Sum at Least K, 1499 Max Value of Equation : Monotonic queue problems(very simillar).
