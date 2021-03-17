@@ -20,6 +20,7 @@ Problems worth resolving
 >    * 862 Shortest Subarray with Sum at Least K, 1499 Max Value of Equation : Monotonic queue problems(very simillar).
 2. Dynamic Programming
 >* Easy
+>    * 121,122 : Best Time to Buy and Sell Stock series
 >* Medium
 >    * 1567 Maximum Length of Subarray With Positive Product
 >    * 322 Coin Change, 518 Coin Change 2 : Basic dynamic programming problems. 
@@ -27,9 +28,11 @@ Problems worth resolving
 >    * 837 New 21 Game : Brilliant DP. 
 >    * 1155 Number of Dice Rolls With Target Sum
 >    * 1143 Longest Common Subsequence
+>    * 123,188 : Best Time to Buy and Sell Stock series
 >* Hard
 >    * 879 Profitable Schemes : 2D dp.
 >    * 1416 Restore The Array
+>    * 309,714 : Best Time to Buy and Sell Stock series
 3. Linked List
 >* Medium
 >    * 19 Remove Nth Node From End of List : Solve with only one pass.
