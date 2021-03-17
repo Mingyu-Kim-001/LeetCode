@@ -3,10 +3,10 @@ Problems solved
 
 |        |   Arrays |   Back Tracking |   Binary |   Dynamic Programming |   Graph |   Heap |   Linked List |   String |   Tree |   Two Pointers |   Union Find |   total |
 |:-------|---------:|----------------:|---------:|----------------------:|--------:|-------:|--------------:|---------:|-------:|---------------:|-------------:|--------:|
-| easy   |       21 |               0 |        2 |                     1 |       0 |      0 |             3 |       10 |     13 |              0 |            0 |      50 |
-| medium |       68 |               1 |        2 |                    20 |      17 |      1 |             6 |       23 |     21 |              3 |            2 |     164 |
-| hard   |       10 |               0 |        0 |                     5 |       4 |      1 |             1 |        1 |      3 |              1 |            2 |      28 |
-| total  |       99 |               1 |        4 |                    26 |      21 |      2 |            10 |       34 |     37 |              4 |            4 |     242 |
+| easy   |       20 |               0 |        2 |                     3 |       0 |      0 |             3 |       10 |     13 |              0 |            0 |      51 |
+| medium |       68 |               1 |        2 |                    21 |      17 |      1 |             6 |       23 |     21 |              3 |            2 |     165 |
+| hard   |       10 |               0 |        0 |                     8 |       4 |      1 |             1 |        1 |      3 |              1 |            2 |      31 |
+| total  |       98 |               1 |        4 |                    32 |      21 |      2 |            10 |       34 |     37 |              4 |            4 |     247 |
 
 Problems worth resolving 
 
@@ -25,12 +25,12 @@ Problems worth resolving
 >    * 56 Merge Intervals
 >    * 406 Queue Reconstruction by Height
 >    * 739 Daily Temperatures
->    * 714 Best Time to Buy and Sell Stock with Transaction Fee : Buy and sell stock series
 >* Hard
 >    * 239 Sliding Window Maximum : A typical monotonic queue problem. 
 >    * 862 Shortest Subarray with Sum at Least K, 1499 Max Value of Equation : Monotonic queue problems(very simillar).
 2. Dynamic Programming
 >* Easy
+>    * 121,122 : Best Time to Buy and Sell Stock series
 >* Medium
 >    * 1567 Maximum Length of Subarray With Positive Product
 >    * 322 Coin Change, 518 Coin Change 2 : Basic dynamic programming problems. 
@@ -38,9 +38,11 @@ Problems worth resolving
 >    * 837 New 21 Game : Brilliant DP. 
 >    * 1155 Number of Dice Rolls With Target Sum
 >    * 1143 Longest Common Subsequence
+>    * 123,188 : Best Time to Buy and Sell Stock series
 >* Hard
 >    * 879 Profitable Schemes : 2D dp.
 >    * 1416 Restore The Array
+>    * 309,714 : Best Time to Buy and Sell Stock series
 3. Linked List
 >* Medium
 >    * 19 Remove Nth Node From End of List : Solve with only one pass.
