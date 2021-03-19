@@ -4,9 +4,9 @@ Problems solved
 |        |   Arrays |   Back Tracking |   Binary |   Dynamic Programming |   Graph |   Heap |   Linked List |   String |   Tree |   Two Pointers |   Union Find |   total |
 |:-------|---------:|----------------:|---------:|----------------------:|--------:|-------:|--------------:|---------:|-------:|---------------:|-------------:|--------:|
 | easy   |       20 |               0 |        2 |                     3 |       0 |      0 |             3 |       10 |     13 |              0 |            0 |      51 |
-| medium |       68 |               1 |        2 |                    21 |      17 |      1 |             6 |       23 |     21 |              3 |            2 |     165 |
-| hard   |       10 |               0 |        0 |                     8 |       4 |      1 |             1 |        1 |      3 |              1 |            2 |      31 |
-| total  |       98 |               1 |        4 |                    32 |      21 |      2 |            10 |       34 |     37 |              4 |            4 |     247 |
+| medium |       69 |               1 |        2 |                    22 |      17 |      1 |             6 |       23 |     21 |              3 |            2 |     167 |
+| hard   |       11 |               0 |        0 |                     8 |       4 |      1 |             1 |        1 |      3 |              1 |            2 |      32 |
+| total  |      100 |               1 |        4 |                    33 |      21 |      2 |            10 |       34 |     37 |              4 |            4 |     250 |
 
 Problems worth resolving 
 
@@ -28,6 +28,7 @@ Problems worth resolving
 >* Hard
 >    * 239 Sliding Window Maximum : A typical monotonic queue problem. 
 >    * 862 Shortest Subarray with Sum at Least K, 1499 Max Value of Equation : Monotonic queue problems(very simillar).
+>    * 84 Largest Rectangle in Histogram
 2. Dynamic Programming
 >* Easy
 >    * 121,122 : Best Time to Buy and Sell Stock series
@@ -39,6 +40,7 @@ Problems worth resolving
 >    * 1155 Number of Dice Rolls With Target Sum
 >    * 1143 Longest Common Subsequence
 >    * 123,188 : Best Time to Buy and Sell Stock series
+>    * 1277 Count Square Submatrices with All Ones
 >* Hard
 >    * 879 Profitable Schemes : 2D dp.
 >    * 1416 Restore The Array

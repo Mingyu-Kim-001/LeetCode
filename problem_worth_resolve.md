@@ -18,6 +18,7 @@ Problems worth resolving
 >* Hard
 >    * 239 Sliding Window Maximum : A typical monotonic queue problem. 
 >    * 862 Shortest Subarray with Sum at Least K, 1499 Max Value of Equation : Monotonic queue problems(very simillar).
+>    * 84 Largest Rectangle in Histogram
 2. Dynamic Programming
 >* Easy
 >    * 121,122 : Best Time to Buy and Sell Stock series
@@ -29,6 +30,7 @@ Problems worth resolving
 >    * 1155 Number of Dice Rolls With Target Sum
 >    * 1143 Longest Common Subsequence
 >    * 123,188 : Best Time to Buy and Sell Stock series
+>    * 1277 Count Square Submatrices with All Ones
 >* Hard
 >    * 879 Profitable Schemes : 2D dp.
 >    * 1416 Restore The Array
