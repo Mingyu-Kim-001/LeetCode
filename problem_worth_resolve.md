@@ -68,6 +68,7 @@ Problems worth resolving
 >    * 28 Implement strStr() : KMP algorithm
 >* Medium
 >    * 648 Replace Words : The idea of Trie. 
+>    * 966 Vowel Spellchecker
 >* Hard
 >    * 1392 Longest Happy Prefix : KMP algorithm
 9. Union Find
