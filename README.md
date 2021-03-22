@@ -4,9 +4,9 @@ Problems solved
 |        |   Arrays |   Back Tracking |   Binary |   Dynamic Programming |   Graph |   Heap |   Linked List |   String |   Tree |   Two Pointers |   Union Find |   total |
 |:-------|---------:|----------------:|---------:|----------------------:|--------:|-------:|--------------:|---------:|-------:|---------------:|-------------:|--------:|
 | easy   |       20 |               0 |        2 |                     3 |       0 |      0 |             3 |       10 |     13 |              0 |            0 |      51 |
-| medium |       70 |               1 |        2 |                    22 |      17 |      1 |             6 |       23 |     21 |              3 |            2 |     168 |
+| medium |       70 |               1 |        2 |                    22 |      17 |      1 |             6 |       24 |     21 |              3 |            2 |     169 |
 | hard   |       11 |               0 |        0 |                     8 |       4 |      1 |             1 |        1 |      3 |              1 |            2 |      32 |
-| total  |      101 |               1 |        4 |                    33 |      21 |      2 |            10 |       34 |     37 |              4 |            4 |     251 |
+| total  |      101 |               1 |        4 |                    33 |      21 |      2 |            10 |       35 |     37 |              4 |            4 |     252 |
 
 Problems worth resolving 
 
@@ -78,6 +78,7 @@ Problems worth resolving
 >    * 28 Implement strStr() : KMP algorithm
 >* Medium
 >    * 648 Replace Words : The idea of Trie. 
+>    * 966 Vowel Spellchecker
 >* Hard
 >    * 1392 Longest Happy Prefix : KMP algorithm
 9. Union Find
