@@ -69,8 +69,9 @@ Problems worth resolving
 >* Medium
 >    * 648 Replace Words : The idea of Trie. 
 >    * 966 Vowel Spellchecker
+>    * 1209 Remove All Adjacent Duplicates in String 
 >* Hard
->    * 1392 Longest Happy Prefix : KMP algorithm
+>    * 1209 Remove All Adjacent Duplicates in String II
 9. Union Find
 >* Hard
 >    * 1627 Graph Connectivity With Threshold : A typical union find problem. 
