@@ -3,10 +3,10 @@ Problems solved
 
 |        |   Arrays |   Back Tracking |   Binary |   Dynamic Programming |   Graph |   Heap |   Linked List |   String |   Tree |   Two Pointers |   Union Find |   total |
 |:-------|---------:|----------------:|---------:|----------------------:|--------:|-------:|--------------:|---------:|-------:|---------------:|-------------:|--------:|
-| easy   |       20 |               0 |        2 |                     3 |       0 |      0 |             3 |       10 |     13 |              0 |            0 |      51 |
-| medium |       76 |               1 |        2 |                    24 |      17 |      1 |             6 |       24 |     21 |              3 |            2 |     177 |
-| hard   |       11 |               0 |        0 |                     8 |       4 |      1 |             1 |        1 |      3 |              1 |            2 |      32 |
-| total  |      107 |               1 |        4 |                    35 |      21 |      2 |            10 |       35 |     37 |              4 |            4 |     260 |
+| easy   |       23 |               0 |        2 |                     3 |       0 |      0 |             3 |       11 |     14 |              0 |            0 |      56 |
+| medium |       86 |               1 |        2 |                    24 |      17 |      2 |             7 |       24 |     22 |              3 |            2 |     190 |
+| hard   |       11 |               0 |        0 |                     8 |       5 |      1 |             1 |        1 |      3 |              1 |            2 |      33 |
+| total  |      120 |               1 |        4 |                    35 |      22 |      3 |            11 |       36 |     39 |              4 |            4 |     279 |
 
 Problems worth resolving 
 
@@ -79,8 +79,9 @@ Problems worth resolving
 >* Medium
 >    * 648 Replace Words : The idea of Trie. 
 >    * 966 Vowel Spellchecker
+>    * 1209 Remove All Adjacent Duplicates in String 
 >* Hard
->    * 1392 Longest Happy Prefix : KMP algorithm
+>    * 1209 Remove All Adjacent Duplicates in String II
 9. Union Find
 >* Hard
 >    * 1627 Graph Connectivity With Threshold : A typical union find problem. 
