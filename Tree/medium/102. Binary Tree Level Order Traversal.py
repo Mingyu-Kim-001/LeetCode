@@ -4,24 +4,21 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-
-#Time: O(n)
 class Solution:
     def levelOrder(self, root: TreeNode) -> List[List[int]]:
         if not root:
             return []
-        curLeaf = [root]
-        result = [[root.val]]
-        while True:
-            temp = []
-            for node in curLeaf:
-                if node.left: 
-                    temp.append(node.left)
-                if node.right: 
-                    temp.append(node.right)
-            if temp:
-                result.append([node.val for node in temp])
-                curLeaf = temp
-            else:
-                break
-        return result
+        cur_level_nodes = [root]
+        next_level_nodes = []
+        ans = []
+        while cur_level_nodes:
+            ans.append([])
+            for node in cur_level_nodes:
+                ans[-1].append(node.val)
+                if node.left:
+                    next_level_nodes.append(node.left)
+                if node.right:
+                    next_level_nodes.append(node.right)
+            cur_level_nodes = next_level_nodes
+            next_level_nodes = []
+        return ans
