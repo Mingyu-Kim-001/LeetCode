@@ -4,9 +4,9 @@ Problems solved
 |        |   Arrays |   Back Tracking |   Binary |   Dynamic Programming |   Graph |   Heap |   Linked List |   String |   Tree |   Two Pointers |   Union Find |   total |
 |:-------|---------:|----------------:|---------:|----------------------:|--------:|-------:|--------------:|---------:|-------:|---------------:|-------------:|--------:|
 | easy   |       23 |               0 |        2 |                     3 |       0 |      0 |             3 |       11 |     14 |              0 |            0 |      56 |
-| medium |       86 |               1 |        2 |                    24 |      18 |      2 |             7 |       25 |     22 |              3 |            2 |     192 |
-| hard   |       11 |               0 |        0 |                     8 |       6 |      1 |             1 |        1 |      3 |              1 |            2 |      34 |
-| total  |      120 |               1 |        4 |                    35 |      24 |      3 |            11 |       37 |     39 |              4 |            4 |     282 |
+| medium |       88 |               1 |        2 |                    24 |      18 |      2 |             7 |       26 |     22 |              3 |            2 |     195 |
+| hard   |       11 |               0 |        0 |                     8 |       7 |      1 |             1 |        1 |      4 |              1 |            2 |      36 |
+| total  |      122 |               1 |        4 |                    35 |      25 |      3 |            11 |       38 |     40 |              4 |            4 |     287 |
 
 Problems worth resolving 
 
@@ -57,6 +57,7 @@ Problems worth resolving
 >    * 437 Path Sum III : Prefix method on the binary tree. 
 >* Hard
 >    * 1028 Recover a Tree From Preorder Traversal : Nice usage of stack. 
+>    * 968 Binary Tree Cameras : Greedy DFS
 6. Graph
 >* Medium
 >    * 207 Course Schedule : A typical topological sorting problem. 
