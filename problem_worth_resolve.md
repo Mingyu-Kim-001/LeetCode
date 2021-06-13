@@ -45,6 +45,7 @@ Problems worth resolving
 >* Medium
 >    * 105 Construct Binary Tree from Preorder and Inorder Traversal, 889 Construct Binary Tree from Preorder and Postorder Traversal : Nice recursion solution exists. 
 >    * 437 Path Sum III : Prefix method on the binary tree. 
+>    * 729 My Calendar I : Sorting intervals using Binary Search Tree.
 >* Hard
 >    * 1028 Recover a Tree From Preorder Traversal : Nice usage of stack. 
 >    * 968 Binary Tree Cameras : Greedy DFS

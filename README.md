@@ -3,10 +3,10 @@ Problems solved
 
 |        |   Arrays |   Back Tracking |   Binary |   Dynamic Programming |   Graph |   Heap |   Linked List |   String |   Tree |   Two Pointers |   Union Find |   total |
 |:-------|---------:|----------------:|---------:|----------------------:|--------:|-------:|--------------:|---------:|-------:|---------------:|-------------:|--------:|
-| easy   |       23 |               0 |        2 |                     3 |       0 |      0 |             3 |       11 |     14 |              0 |            0 |      56 |
-| medium |       88 |               1 |        2 |                    24 |      18 |      2 |             7 |       26 |     22 |              3 |            2 |     195 |
+| easy   |       23 |               0 |        2 |                     4 |       0 |      0 |             3 |       11 |     14 |              0 |            0 |      57 |
+| medium |       90 |               1 |        2 |                    24 |      19 |      2 |             7 |       27 |     23 |              3 |            2 |     200 |
 | hard   |       11 |               0 |        0 |                     8 |       7 |      1 |             1 |        1 |      4 |              1 |            2 |      36 |
-| total  |      122 |               1 |        4 |                    35 |      25 |      3 |            11 |       38 |     40 |              4 |            4 |     287 |
+| total  |      124 |               1 |        4 |                    36 |      26 |      3 |            11 |       39 |     41 |              4 |            4 |     293 |
 
 Problems worth resolving 
 
@@ -55,6 +55,7 @@ Problems worth resolving
 >* Medium
 >    * 105 Construct Binary Tree from Preorder and Inorder Traversal, 889 Construct Binary Tree from Preorder and Postorder Traversal : Nice recursion solution exists. 
 >    * 437 Path Sum III : Prefix method on the binary tree. 
+>    * 729 My Calendar I : Sorting intervals using Binary Search Tree.
 >* Hard
 >    * 1028 Recover a Tree From Preorder Traversal : Nice usage of stack. 
 >    * 968 Binary Tree Cameras : Greedy DFS
