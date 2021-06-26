@@ -31,6 +31,7 @@ Problems worth resolving
 >    * 1143 Longest Common Subsequence
 >    * 123,188 : Best Time to Buy and Sell Stock series
 >    * 1277 Count Square Submatrices with All Ones
+>    * 795 Number of Subarrays with Bounded Maximum
 >* Hard
 >    * 879 Profitable Schemes : 2D dp.
 >    * 1416 Restore The Array
@@ -46,6 +47,7 @@ Problems worth resolving
 >    * 105 Construct Binary Tree from Preorder and Inorder Traversal, 889 Construct Binary Tree from Preorder and Postorder Traversal : Nice recursion solution exists. 
 >    * 437 Path Sum III : Prefix method on the binary tree. 
 >    * 729 My Calendar I : Sorting intervals using Binary Search Tree.
+>    * 307 Range Sum Query - Mutable : Segmented Tree
 >* Hard
 >    * 1028 Recover a Tree From Preorder Traversal : Nice usage of stack. 
 >    * 968 Binary Tree Cameras : Greedy DFS
