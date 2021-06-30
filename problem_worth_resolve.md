@@ -82,3 +82,5 @@ Problems worth resolving
 >    * 1697 Checking Existence of Edge Length Limited Paths
 10. Backtracking
 >*   * 39 Combination Sum
+11. Two Pointers
+>    * 1004 Max Consecutive Ones III
