@@ -3,10 +3,10 @@ Problems solved
 
 |        |   Arrays |   Back Tracking |   Binary |   Dynamic Programming |   Graph |   Heap |   Linked List |   String |   Tree |   Two Pointers |   Union Find |   total |
 |:-------|---------:|----------------:|---------:|----------------------:|--------:|-------:|--------------:|---------:|-------:|---------------:|-------------:|--------:|
-| easy   |       23 |               0 |        2 |                     4 |       0 |      0 |             3 |       11 |     14 |              0 |            0 |      57 |
-| medium |       90 |               1 |        2 |                    24 |      19 |      2 |             7 |       27 |     23 |              3 |            2 |     200 |
-| hard   |       11 |               0 |        0 |                     8 |       7 |      1 |             1 |        1 |      4 |              1 |            2 |      36 |
-| total  |      124 |               1 |        4 |                    36 |      26 |      3 |            11 |       39 |     41 |              4 |            4 |     293 |
+| easy   |       26 |               0 |        2 |                     4 |       0 |      0 |             3 |       12 |     14 |              0 |            0 |      61 |
+| medium |       94 |               1 |        2 |                    25 |      20 |      2 |             7 |       29 |     24 |              4 |            2 |     210 |
+| hard   |       11 |               0 |        0 |                     8 |       8 |      1 |             1 |        1 |      4 |              1 |            2 |      37 |
+| total  |      131 |               1 |        4 |                    37 |      28 |      3 |            11 |       42 |     42 |              5 |            4 |     308 |
 
 Problems worth resolving 
 
@@ -25,6 +25,7 @@ Problems worth resolving
 >    * 56 Merge Intervals
 >    * 406 Queue Reconstruction by Height
 >    * 739 Daily Temperatures
+>    * 18 4Sum
 >* Hard
 >    * 239 Sliding Window Maximum : A typical monotonic queue problem. 
 >    * 862 Shortest Subarray with Sum at Least K, 1499 Max Value of Equation : Monotonic queue problems(very simillar).
@@ -41,6 +42,7 @@ Problems worth resolving
 >    * 1143 Longest Common Subsequence
 >    * 123,188 : Best Time to Buy and Sell Stock series
 >    * 1277 Count Square Submatrices with All Ones
+>    * 795 Number of Subarrays with Bounded Maximum
 >* Hard
 >    * 879 Profitable Schemes : 2D dp.
 >    * 1416 Restore The Array
@@ -56,6 +58,7 @@ Problems worth resolving
 >    * 105 Construct Binary Tree from Preorder and Inorder Traversal, 889 Construct Binary Tree from Preorder and Postorder Traversal : Nice recursion solution exists. 
 >    * 437 Path Sum III : Prefix method on the binary tree. 
 >    * 729 My Calendar I : Sorting intervals using Binary Search Tree.
+>    * 307 Range Sum Query - Mutable : Segmented Tree
 >* Hard
 >    * 1028 Recover a Tree From Preorder Traversal : Nice usage of stack. 
 >    * 968 Binary Tree Cameras : Greedy DFS
@@ -90,3 +93,5 @@ Problems worth resolving
 >    * 1697 Checking Existence of Edge Length Limited Paths
 10. Backtracking
 >*   * 39 Combination Sum
+11. Two Pointers
+>    * 1004 Max Consecutive Ones III
