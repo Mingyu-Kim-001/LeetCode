@@ -1,12 +1,10 @@
 class Solution:
-    def partitionDisjoint(self, A: List[int]) -> int:
-        lEnd = 0
-        lMax = curMax = A[0]
-        i = 1
-        while i+1<len(A):
-            curMax = max(curMax,A[i])
-            if A[i]<lMax:
-                lMax = curMax
-                lEnd = i
-            i+=1
-        return lEnd+1
+    def partitionDisjoint(self, nums: List[int]) -> int:
+        left_max = -1
+        cur_max = -1
+        for i,num in enumerate(nums):
+            cur_max = max(cur_max, num)
+            if left_max < 0 or left_max > num:
+                bound = i
+                left_max = cur_max
+        return bound + 1
