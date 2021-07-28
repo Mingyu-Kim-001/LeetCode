@@ -16,6 +16,7 @@ Problems worth resolving
 >    * 406 Queue Reconstruction by Height
 >    * 739 Daily Temperatures
 >    * 18 4Sum
+>    * 932 Beautiful Array
 >* Hard
 >    * 239 Sliding Window Maximum : A typical monotonic queue problem. 
 >    * 862 Shortest Subarray with Sum at Least K, 1499 Max Value of Equation : Monotonic queue problems(very simillar).
