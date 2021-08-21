@@ -83,6 +83,9 @@ Problems worth resolving
 >    * 1627 Graph Connectivity With Threshold : A typical union find problem. 
 >    * 1697 Checking Existence of Edge Length Limited Paths
 10. Backtracking
->*   * 39 Combination Sum
+>* Medium
+>    * 39 Combination Sum
+>* Hard
+>    * 37 Sudoku Solver
 11. Two Pointers
 >    * 1004 Max Consecutive Ones III

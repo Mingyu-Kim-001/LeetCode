@@ -3,10 +3,10 @@ Problems solved
 
 |        |   Arrays |   Back Tracking |   Binary |   Dynamic Programming |   Graph |   Heap |   Linked List |   String |   Tree |   Two Pointers |   Union Find |   total |
 |:-------|---------:|----------------:|---------:|----------------------:|--------:|-------:|--------------:|---------:|-------:|---------------:|-------------:|--------:|
-| easy   |       26 |               0 |        2 |                     4 |       0 |      0 |             3 |       12 |     14 |              0 |            0 |      61 |
-| medium |       97 |               1 |        2 |                    25 |      21 |      2 |             7 |       30 |     27 |              4 |            2 |     218 |
-| hard   |       11 |               0 |        0 |                     8 |       8 |      1 |             1 |        1 |      4 |              1 |            3 |      38 |
-| total  |      134 |               1 |        4 |                    37 |      29 |      3 |            11 |       43 |     45 |              5 |            5 |     317 |
+| easy   |       26 |               0 |        2 |                     4 |       0 |      0 |             3 |       13 |     14 |              0 |            0 |      62 |
+| medium |       99 |               1 |        2 |                    25 |      21 |      2 |             7 |       30 |     29 |              4 |            2 |     222 |
+| hard   |       11 |               1 |        0 |                     8 |       8 |      1 |             1 |        1 |      4 |              1 |            3 |      39 |
+| total  |      136 |               2 |        4 |                    37 |      29 |      3 |            11 |       44 |     47 |              5 |            5 |     323 |
 
 Problems worth resolving 
 
@@ -93,6 +93,9 @@ Problems worth resolving
 >    * 1627 Graph Connectivity With Threshold : A typical union find problem. 
 >    * 1697 Checking Existence of Edge Length Limited Paths
 10. Backtracking
->*   * 39 Combination Sum
+>* Medium
+>    * 39 Combination Sum
+>* Hard
+>    * 37 Sudoku Solver
 11. Two Pointers
 >    * 1004 Max Consecutive Ones III
