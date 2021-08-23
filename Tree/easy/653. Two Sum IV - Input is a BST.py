@@ -4,15 +4,15 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-
-#Time: O(n)
 class Solution:
-    def findTarget(self, root: TreeNode, k: int) -> bool:
-        valSet = set()
-        def DFS(node,valSet):
+    def findTarget(self, root: Optional[TreeNode], k: int) -> bool:
+        
+        def DFS(node, seen, k):
             if not node:
                 return False
-            if k-node.val in valSet: return True
-            valSet.add(node.val)
-            return DFS(node.left,valSet) or DFS(node.right,valSet)
-        return DFS(root,valSet)
+            if k - node.val in seen:
+                return True
+            seen.add(node.val)
+            return DFS(node.left, seen, k) or DFS(node.right, seen, k)
+        
+        return DFS(root, set(), k)
