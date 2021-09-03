@@ -5,8 +5,8 @@ Problems solved
 |:-------|---------:|----------------:|---------:|----------------------:|--------:|-------:|--------------:|---------:|-------:|---------------:|-------------:|--------:|
 | easy   |       27 |               0 |        2 |                     4 |       0 |      0 |             3 |       13 |     14 |              0 |            0 |      63 |
 | medium |       99 |               1 |        2 |                    25 |      22 |      2 |             7 |       32 |     30 |              4 |            2 |     226 |
-| hard   |       11 |               1 |        0 |                     8 |       8 |      1 |             1 |        1 |      4 |              1 |            3 |      39 |
-| total  |      137 |               2 |        4 |                    37 |      30 |      3 |            11 |       46 |     48 |              5 |            5 |     328 |
+| hard   |       12 |               1 |        0 |                     8 |       8 |      1 |             1 |        1 |      4 |              1 |            3 |      40 |
+| total  |      138 |               2 |        4 |                    37 |      30 |      3 |            11 |       46 |     48 |              5 |            5 |     329 |
 
 Problems worth resolving 
 
@@ -31,6 +31,7 @@ Problems worth resolving
 >    * 239 Sliding Window Maximum : A typical monotonic queue problem. 
 >    * 862 Shortest Subarray with Sum at Least K, 1499 Max Value of Equation : Monotonic queue problems(very simillar).
 >    * 84 Largest Rectangle in Histogram
+>    * 330 Patching Array : A greedy solution with the interval.
 2. Dynamic Programming
 >* Easy
 >    * 121,122 : Best Time to Buy and Sell Stock series

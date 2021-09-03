@@ -21,6 +21,7 @@ Problems worth resolving
 >    * 239 Sliding Window Maximum : A typical monotonic queue problem. 
 >    * 862 Shortest Subarray with Sum at Least K, 1499 Max Value of Equation : Monotonic queue problems(very simillar).
 >    * 84 Largest Rectangle in Histogram
+>    * 330 Patching Array : A greedy solution with the interval.
 2. Dynamic Programming
 >* Easy
 >    * 121,122 : Best Time to Buy and Sell Stock series
