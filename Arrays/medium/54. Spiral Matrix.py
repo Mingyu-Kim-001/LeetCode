@@ -1,29 +1,23 @@
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
-        
         m = len(matrix)
         n = len(matrix[0])
-        if m==0 or n==0:return []
-        
-        count = 0
-        result = []
-        x,y=0,-1
-        def isInMatrix(x,y):
-            return 0<=x<m and 0<=y<n
-        moves = [[0,1],[1,0],[0,-1],[-1,0]]
-        while count<m*n:
-            for movex, movey in moves:
-                while True:
-                    newx = x+movex
-                    newy = y+movey
-                    if isInMatrix(newx,newy) and matrix[newx][newy]!=-1000:
-                        result.append(matrix[newx][newy])
-                        matrix[newx][newy] = -1000
-                        x,y=newx,newy
-                        newx = x+movex
-                        newy = y+movey
-                        count+=1
-                    else:
-                        break
-
-        return result
+        direction = 0 # 0 for right, 1 for down, 2 for left, 3 for up
+        move = {0 : [0,1], 1 : [1,0], 2 : [0,-1], 3 : [-1,0]}
+        x = y = 0
+        visit = [[False] * n for _ in range(m)]
+        visit[0][0] = True
+        ans = [matrix[0][0]]
+        while len(ans) < m * n:
+            rotate = 0
+            while rotate < 4:
+                move_x, move_y = move[direction]
+                new_x, new_y = x + move_x, y + move_y
+                if 0 <= new_x < m and 0 <= new_y < n and not visit[new_x][new_y]:
+                    x, y = new_x, new_y
+                    break
+                direction = (direction+1) % 4
+                rotate += 1
+            ans.append(matrix[x][y])
+            visit[x][y] = True
+        return ans
