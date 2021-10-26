@@ -3,10 +3,10 @@ Problems solved
 
 |        |   Arrays |   Back Tracking |   Binary |   Dynamic Programming |   Graph |   Heap |   Linked List |   String |   Tree |   Two Pointers |   Union Find |   total |
 |:-------|---------:|----------------:|---------:|----------------------:|--------:|-------:|--------------:|---------:|-------:|---------------:|-------------:|--------:|
-| easy   |       27 |               0 |        2 |                     4 |       0 |      0 |             3 |       13 |     14 |              0 |            0 |      63 |
-| medium |       99 |               1 |        2 |                    25 |      22 |      2 |             7 |       32 |     30 |              4 |            2 |     226 |
-| hard   |       12 |               1 |        0 |                     8 |       8 |      1 |             1 |        1 |      4 |              1 |            3 |      40 |
-| total  |      138 |               2 |        4 |                    37 |      30 |      3 |            11 |       46 |     48 |              5 |            5 |     329 |
+| easy   |       29 |               0 |        2 |                     4 |       0 |      0 |             3 |       16 |     14 |              0 |            0 |      68 |
+| medium |      102 |               2 |        2 |                    25 |      23 |      2 |             8 |       36 |     33 |              4 |            2 |     239 |
+| hard   |       12 |               1 |        0 |                     8 |       8 |      2 |             1 |        2 |      4 |              1 |            3 |      42 |
+| total  |      143 |               3 |        4 |                    37 |      31 |      4 |            12 |       54 |     51 |              5 |            5 |     349 |
 
 Problems worth resolving 
 
@@ -16,13 +16,12 @@ Problems worth resolving
 >* Medium
 >    * 1314 Matrix Block Sum : Prefix sum with 2D array
 >    * 56 Merge Intervals : Not sorted input & take care of all cases
->    * 152 Maximum Product Subarray : Solve with binary search. 
+>    * 152 Maximum Product Subarray
 >    * 334 Increasing Triplet Subsequence
 >    * 347 Top K Frequent Elements : The idea of bucket sort.
 >    * 435 Non-overlapping Intervals : Sorting intervals. 
 >    * 526 Beautiful Arrangement
 >    * 1014 Best Sightseeing Pair
->    * 56 Merge Intervals
 >    * 406 Queue Reconstruction by Height
 >    * 739 Daily Temperatures
 >    * 18 4Sum
@@ -55,6 +54,7 @@ Problems worth resolving
 4. Priority Queue
 >* Hard
 >    * 23 Merge k Sorted Lists : A typical heap problem. 
+>    * 295 Find Median from Data Stream
 5. Tree
 >* Medium
 >    * 105 Construct Binary Tree from Preorder and Inorder Traversal, 889 Construct Binary Tree from Preorder and Postorder Traversal : Nice recursion solution exists. 
@@ -96,6 +96,7 @@ Problems worth resolving
 10. Backtracking
 >* Medium
 >    * 39 Combination Sum
+>    * 698 Partition to K Equal Sum Subsets
 >* Hard
 >    * 37 Sudoku Solver
 11. Two Pointers
