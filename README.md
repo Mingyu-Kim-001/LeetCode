@@ -5,8 +5,8 @@ Problems solved
 |:-------|---------:|----------------:|---------:|----------------------:|--------:|-------:|--------------:|---------:|-------:|---------------:|-------------:|--------:|
 | easy   |       29 |               0 |        2 |                     4 |       0 |      0 |             3 |       16 |     14 |              0 |            0 |      68 |
 | medium |      104 |               2 |        2 |                    25 |      24 |      3 |            10 |       38 |     37 |              4 |            2 |     251 |
-| hard   |       12 |               1 |        0 |                     8 |       8 |      2 |             1 |        2 |      4 |              1 |            3 |      42 |
-| total  |      145 |               3 |        4 |                    37 |      32 |      5 |            14 |       56 |     55 |              5 |            5 |     361 |
+| hard   |       12 |               1 |        0 |                     8 |       8 |      2 |             1 |        3 |      4 |              1 |            3 |      43 |
+| total  |      145 |               3 |        4 |                    37 |      32 |      5 |            14 |       57 |     55 |              5 |            5 |     362 |
 
 Problems worth resolving 
 
@@ -90,6 +90,7 @@ Problems worth resolving
 >    * 1209 Remove All Adjacent Duplicates in String 
 >* Hard
 >    * 1209 Remove All Adjacent Duplicates in String II
+>    * 1032 Stream of Characters
 9. Union Find
 >* Hard
 >    * 1627 Graph Connectivity With Threshold : A typical union find problem. 
