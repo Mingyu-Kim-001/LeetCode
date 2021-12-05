@@ -2,13 +2,13 @@ class StreamChecker:
     def __init__(self, words: List[str]):
         self.trie = {}
         self.words_to_trie(words)
-        # print(self.trie)
-        self.queue = []
+        self.max_word_length = max([len(word) for word in words])
+        self.stream = ""
         
     def words_to_trie(self, words):
         for word in words:
             cur = self.trie
-            for char in word:
+            for char in word[::-1]:
                 if not char in cur:
                     cur[char] = {}
                 cur = cur[char]
@@ -16,10 +16,16 @@ class StreamChecker:
             
 
     def query(self, letter: str) -> bool:
-        self.queue = [trie[letter] for trie in self.queue if letter in trie]
-        if letter in self.trie:
-            self.queue.append(self.trie[letter])
-        return any(["END" in trie for trie in self.queue])
+        self.stream = (letter + self.stream)[:self.max_word_length]
+        cur = self.trie
+        for char in self.stream:
+            if "END" in cur:
+                return True
+            if not char in cur:
+                return False
+            cur = cur[char]
+        return "END" in cur
+        
         
         
 
