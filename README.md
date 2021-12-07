@@ -5,8 +5,8 @@ Problems solved
 |:-------|---------:|----------------:|---------:|----------------------:|--------:|-------:|--------------:|---------:|-------:|---------------:|-------------:|--------:|
 | easy   |       29 |               0 |        2 |                     4 |       0 |      0 |             3 |       16 |     14 |              0 |            0 |      68 |
 | medium |      104 |               2 |        2 |                    25 |      24 |      3 |            10 |       38 |     37 |              4 |            2 |     251 |
-| hard   |       12 |               1 |        0 |                     8 |       8 |      2 |             1 |        3 |      4 |              1 |            3 |      43 |
-| total  |      145 |               3 |        4 |                    37 |      32 |      5 |            14 |       57 |     55 |              5 |            5 |     362 |
+| hard   |       13 |               1 |        0 |                     8 |       8 |      2 |             1 |        3 |      4 |              1 |            3 |      44 |
+| total  |      146 |               3 |        4 |                    37 |      32 |      5 |            14 |       57 |     55 |              5 |            5 |     363 |
 
 Problems worth resolving 
 
@@ -32,6 +32,7 @@ Problems worth resolving
 >    * 862 Shortest Subarray with Sum at Least K, 1499 Max Value of Equation : Monotonic queue problems(very simillar).
 >    * 84 Largest Rectangle in Histogram
 >    * 330 Patching Array : A greedy solution with the interval.
+>    * 352 Data Stream as Disjoint Intervals : Stream processing using heap.
 2. Dynamic Programming
 >* Easy
 >    * 121,122 : Best Time to Buy and Sell Stock series
