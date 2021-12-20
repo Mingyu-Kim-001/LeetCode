@@ -1,0 +1,24 @@
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+from collections import deque
+class Solution:
+    def isCompleteTree(self, root: TreeNode) -> bool:
+        reachEndLayer = False
+        bfs = deque([root])
+        while bfs:
+            node = bfs.popleft()
+            if not reachEndLayer:
+                if not node.left and node.right: return False
+                if node.left:
+                    bfs.append(node.left)
+                if node.right: 
+                    bfs.append(node.right)
+                else:
+                    reachEndLayer = True
+            else:
+                if node.left or node.right: return False
+        return True
