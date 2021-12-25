@@ -5,8 +5,8 @@ Problems solved
 |:-------|---------:|----------------:|---------:|----------------------:|--------:|-------:|--------------:|---------:|-------:|---------------:|-------------:|--------:|
 | easy   |       29 |               0 |        2 |                     4 |       0 |      0 |             3 |       16 |     14 |              0 |            0 |      68 |
 | medium |      105 |               2 |        2 |                    25 |      24 |      3 |            10 |       38 |     37 |              4 |            2 |     252 |
-| hard   |       19 |               1 |        0 |                     8 |      11 |      2 |             1 |        4 |      4 |              1 |            3 |      54 |
-| total  |      153 |               3 |        4 |                    37 |      35 |      5 |            14 |       58 |     55 |              5 |            5 |     374 |
+| hard   |       19 |               1 |        0 |                     8 |      11 |      2 |             1 |        4 |      5 |              1 |            3 |      55 |
+| total  |      153 |               3 |        4 |                    37 |      35 |      5 |            14 |       58 |     56 |              5 |            5 |     375 |
 
 Problems worth resolving 
 
@@ -68,6 +68,7 @@ Problems worth resolving
 >* Hard
 >    * 1028 Recover a Tree From Preorder Traversal : Nice usage of stack. 
 >    * 968 Binary Tree Cameras : Greedy DFS
+>    * 732 My Calendar III : Segmentation tree with lazy propagation.
 6. Graph
 >* Medium
 >    * 207 Course Schedule : A typical topological sorting problem. 
