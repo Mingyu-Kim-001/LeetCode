@@ -5,8 +5,8 @@ Problems solved
 |:-------|---------:|----------------:|---------:|----------------------:|--------:|-------:|--------------:|---------:|-------:|---------------:|-------------:|--------:|
 | easy   |       29 |               0 |        2 |                     4 |       0 |      0 |             3 |       16 |     14 |              0 |            0 |      68 |
 | medium |      106 |               2 |        2 |                    25 |      24 |      3 |            10 |       38 |     38 |              4 |            2 |     254 |
-| hard   |       20 |               1 |        0 |                     9 |      11 |      2 |             1 |        4 |      5 |              1 |            3 |      57 |
-| total  |      155 |               3 |        4 |                    38 |      35 |      5 |            14 |       58 |     57 |              5 |            5 |     379 |
+| hard   |       20 |               1 |        0 |                     9 |      11 |      2 |             1 |        5 |      5 |              1 |            3 |      58 |
+| total  |      155 |               3 |        4 |                    38 |      35 |      5 |            14 |       59 |     57 |              5 |            5 |     380 |
 
 Problems worth resolving 
 
@@ -95,6 +95,7 @@ Problems worth resolving
 >* Hard
 >    * 1209 Remove All Adjacent Duplicates in String II
 >    * 1032 Stream of Characters
+>    * 1312 Minimum Insertion Steps to Make a String Palindrom : Longetst Common Subsequencee
 9. Union Find
 >* Hard
 >    * 1627 Graph Connectivity With Threshold : A typical union find problem. 
