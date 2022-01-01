@@ -5,8 +5,8 @@ Problems solved
 |:-------|---------:|----------------:|---------:|----------------------:|--------:|-------:|--------------:|---------:|-------:|---------------:|-------------:|--------:|
 | easy   |       29 |               0 |        2 |                     4 |       0 |      0 |             3 |       16 |     14 |              0 |            0 |      68 |
 | medium |      106 |               3 |        2 |                    25 |      24 |      3 |            10 |       38 |     39 |              4 |            2 |     256 |
-| hard   |       20 |               1 |        0 |                     9 |      11 |      2 |             1 |        5 |      5 |              1 |            3 |      58 |
-| total  |      155 |               4 |        4 |                    38 |      35 |      5 |            14 |       59 |     58 |              5 |            5 |     382 |
+| hard   |       20 |               1 |        0 |                    10 |      11 |      2 |             1 |        5 |      5 |              1 |            3 |      59 |
+| total  |      155 |               4 |        4 |                    39 |      35 |      5 |            14 |       59 |     58 |              5 |            5 |     383 |
 
 Problems worth resolving 
 
@@ -52,6 +52,7 @@ Problems worth resolving
 >    * 879 Profitable Schemes : 2D dp.
 >    * 1416 Restore The Array
 >    * 309,714 : Best Time to Buy and Sell Stock series
+>    * 312 Burst Balloons : 2D DP
 3. Linked List
 >* Medium
 >    * 19 Remove Nth Node From End of List : Solve with only one pass.
