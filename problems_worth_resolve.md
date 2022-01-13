@@ -1,13 +1,3 @@
-# LeetCode
-Problems solved
-
-|        |   Arrays |   Back Tracking |   Binary |   Dynamic Programming |   Graph |   Heap |   Linked List |   String |   Tree |   Two Pointers |   Union Find |   total |
-|:-------|---------:|----------------:|---------:|----------------------:|--------:|-------:|--------------:|---------:|-------:|---------------:|-------------:|--------:|
-| easy   |       29 |               0 |        2 |                     4 |       0 |      0 |             3 |       16 |     14 |              0 |            0 |      68 |
-| medium |      107 |               3 |        2 |                    25 |      24 |      4 |            10 |       38 |     40 |              4 |            2 |     259 |
-| hard   |       20 |               1 |        0 |                    10 |      11 |      3 |             1 |        5 |      5 |              1 |            3 |      60 |
-| total  |      156 |               4 |        4 |                    39 |      35 |      7 |            14 |       59 |     59 |              5 |            5 |     387 |
-
 Problems worth resolving 
 
 1. Arrays
