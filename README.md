@@ -4,9 +4,9 @@ Problems solved
 |        |   Arrays |   Back Tracking |   Binary |   Dynamic Programming |   Graph |   Heap |   Linked List |   String |   Tree |   Two Pointers |   Union Find |   total |
 |:-------|---------:|----------------:|---------:|----------------------:|--------:|-------:|--------------:|---------:|-------:|---------------:|-------------:|--------:|
 | easy   |       29 |               0 |        2 |                     4 |       0 |      0 |             3 |       16 |     14 |              0 |            0 |      68 |
-| medium |      113 |               3 |        2 |                    25 |      24 |      4 |            10 |       38 |     42 |              4 |            2 |     267 |
-| hard   |       20 |               1 |        0 |                    11 |      12 |      4 |             1 |        5 |      5 |              1 |            3 |      63 |
-| total  |      162 |               4 |        4 |                    40 |      36 |      8 |            14 |       59 |     61 |              5 |            5 |     398 |
+| medium |      113 |               3 |        2 |                    25 |      24 |      4 |            10 |       38 |     42 |              5 |            2 |     268 |
+| hard   |       20 |               1 |        0 |                    12 |      12 |      4 |             1 |        5 |      5 |              1 |            3 |      64 |
+| total  |      162 |               4 |        4 |                    41 |      36 |      8 |            14 |       59 |     61 |              6 |            5 |     400 |
 
 Problems worth resolving 
 
@@ -54,6 +54,7 @@ Problems worth resolving
 >    * 1416 Restore The Array
 >    * 309,714 : Best Time to Buy and Sell Stock series
 >    * 312 Burst Balloons : 2D DP
+>    * 1866 Number of Ways to Rearrange Sticks With K Sticks Visible
 3. Linked List
 >* Medium
 >    * 19 Remove Nth Node From End of List : Solve with only one pass.

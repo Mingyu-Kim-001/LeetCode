@@ -44,6 +44,7 @@ Problems worth resolving
 >    * 1416 Restore The Array
 >    * 309,714 : Best Time to Buy and Sell Stock series
 >    * 312 Burst Balloons : 2D DP
+>    * 1866 Number of Ways to Rearrange Sticks With K Sticks Visible
 3. Linked List
 >* Medium
 >    * 19 Remove Nth Node From End of List : Solve with only one pass.
