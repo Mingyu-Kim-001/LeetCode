@@ -18,6 +18,7 @@ Problems worth resolving
 >    * 932 Beautiful Array
 >    * 1424 Diagonal Traverse II
 >    * 525 Contiguous Array
+>    * 2054 Two Best Non-Overlapping Events
 >* Hard
 >    * 239 Sliding Window Maximum : A typical monotonic queue problem. 
 >    * 862 Shortest Subarray with Sum at Least K, 1499 Max Value of Equation : Monotonic queue problems(very simillar).
