@@ -5,8 +5,8 @@ Problems solved
 |:-------|---------:|----------------:|---------:|----------------------:|--------:|-------:|--------------:|---------:|-------:|---------------:|-------------:|--------:|
 | easy   |       29 |               0 |        2 |                     4 |       0 |      0 |             3 |       16 |     14 |              0 |            0 |      68 |
 | medium |      114 |               3 |        2 |                    25 |      24 |      4 |            10 |       38 |     42 |              5 |            2 |     269 |
-| hard   |       20 |               1 |        0 |                    12 |      12 |      4 |             1 |        5 |      5 |              1 |            3 |      64 |
-| total  |      163 |               4 |        4 |                    41 |      36 |      8 |            14 |       59 |     61 |              6 |            5 |     401 |
+| hard   |       20 |               1 |        0 |                    12 |      12 |      5 |             1 |        5 |      5 |              1 |            3 |      65 |
+| total  |      163 |               4 |        4 |                    41 |      36 |      9 |            14 |       59 |     61 |              6 |            5 |     402 |
 
 Problems worth resolving 
 
@@ -64,6 +64,7 @@ Problems worth resolving
 >    * 23 Merge k Sorted Lists : A typical heap problem. 
 >    * 295 Find Median from Data Stream
 >    * 1439 Find the Kth Smallest Sum of a Matrix With Sorted Rows
+>    * 1675 Minimize Deviation in Array
 5. Tree
 >* Medium
 >    * 105 Construct Binary Tree from Preorder and Inorder Traversal, 889 Construct Binary Tree from Preorder and Postorder Traversal : Nice recursion solution exists. 

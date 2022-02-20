@@ -54,6 +54,7 @@ Problems worth resolving
 >    * 23 Merge k Sorted Lists : A typical heap problem. 
 >    * 295 Find Median from Data Stream
 >    * 1439 Find the Kth Smallest Sum of a Matrix With Sorted Rows
+>    * 1675 Minimize Deviation in Array
 5. Tree
 >* Medium
 >    * 105 Construct Binary Tree from Preorder and Inorder Traversal, 889 Construct Binary Tree from Preorder and Postorder Traversal : Nice recursion solution exists. 
