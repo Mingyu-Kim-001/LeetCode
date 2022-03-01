@@ -27,6 +27,7 @@ Problems worth resolving
 >    * 352 Data Stream as Disjoint Intervals : Stream processing using heap.
 >    * 1526 Minimum Number of Increments on Subarrays to Form a Target Array
 >    * 1074 Number of Submatrices That Sum to Target : prefix by row
+>    * 42 Trapping Rain Water
 2. Dynamic Programming
 >* Easy
 >    * 121,122 : Best Time to Buy and Sell Stock series

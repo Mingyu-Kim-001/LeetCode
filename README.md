@@ -5,8 +5,8 @@ Problems solved
 |:-------|---------:|----------------:|---------:|----------------------:|--------:|-------:|--------------:|---------:|-------:|---------------:|-------------:|--------:|
 | easy   |       29 |               0 |        2 |                     4 |       0 |      0 |             3 |       16 |     14 |              0 |            0 |      68 |
 | medium |      114 |               3 |        2 |                    25 |      24 |      4 |            10 |       38 |     43 |              5 |            2 |     270 |
-| hard   |       20 |               1 |        0 |                    12 |      12 |      5 |             1 |        5 |      5 |              1 |            3 |      65 |
-| total  |      163 |               4 |        4 |                    41 |      36 |      9 |            14 |       59 |     62 |              6 |            5 |     403 |
+| hard   |       21 |               1 |        0 |                    12 |      12 |      5 |             1 |        5 |      5 |              1 |            3 |      66 |
+| total  |      164 |               4 |        4 |                    41 |      36 |      9 |            14 |       59 |     62 |              6 |            5 |     404 |
 
 Problems worth resolving 
 
@@ -37,6 +37,7 @@ Problems worth resolving
 >    * 352 Data Stream as Disjoint Intervals : Stream processing using heap.
 >    * 1526 Minimum Number of Increments on Subarrays to Form a Target Array
 >    * 1074 Number of Submatrices That Sum to Target : prefix by row
+>    * 42 Trapping Rain Water
 2. Dynamic Programming
 >* Easy
 >    * 121,122 : Best Time to Buy and Sell Stock series
