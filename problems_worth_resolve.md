@@ -63,6 +63,7 @@ Problems worth resolving
 >    * 437 Path Sum III : Prefix method on the binary tree. 
 >    * 729 My Calendar I : Sorting intervals using Binary Search Tree.
 >    * 307 Range Sum Query - Mutable : Segmented Tree
+>    * 1367 Linked List in Binary Tree : KMP algorithm with tree.
 >* Hard
 >    * 1028 Recover a Tree From Preorder Traversal : Nice usage of stack. 
 >    * 968 Binary Tree Cameras : Greedy DFS

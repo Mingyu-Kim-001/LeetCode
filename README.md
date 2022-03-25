@@ -4,9 +4,9 @@ Problems solved
 |        |   Arrays |   Back Tracking |   Binary |   Dynamic Programming |   Graph |   Heap |   Linked List |   String |   Tree |   Two Pointers |   Union Find |   total |
 |:-------|---------:|----------------:|---------:|----------------------:|--------:|-------:|--------------:|---------:|-------:|---------------:|-------------:|--------:|
 | easy   |       30 |               0 |        2 |                     4 |       0 |      0 |             3 |       16 |     14 |              0 |            0 |      69 |
-| medium |      115 |               3 |        2 |                    25 |      24 |      4 |            10 |       38 |     43 |              5 |            2 |     271 |
+| medium |      115 |               3 |        2 |                    25 |      24 |      4 |            10 |       38 |     44 |              5 |            2 |     272 |
 | hard   |       21 |               1 |        0 |                    12 |      12 |      5 |             1 |        5 |      5 |              1 |            3 |      66 |
-| total  |      166 |               4 |        4 |                    41 |      36 |      9 |            14 |       59 |     62 |              6 |            5 |     406 |
+| total  |      166 |               4 |        4 |                    41 |      36 |      9 |            14 |       59 |     63 |              6 |            5 |     407 |
 
 Problems worth resolving 
 
@@ -73,6 +73,7 @@ Problems worth resolving
 >    * 437 Path Sum III : Prefix method on the binary tree. 
 >    * 729 My Calendar I : Sorting intervals using Binary Search Tree.
 >    * 307 Range Sum Query - Mutable : Segmented Tree
+>    * 1367 Linked List in Binary Tree : KMP algorithm with tree.
 >* Hard
 >    * 1028 Recover a Tree From Preorder Traversal : Nice usage of stack. 
 >    * 968 Binary Tree Cameras : Greedy DFS
